@@ -21,7 +21,7 @@
     tw(closeBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     task.wait(0.25); tw(divLine, {BackgroundTransparency = 0.4}, 0.4)
 
-    print("[H] Premium UI — Ready!")
+    print("[MOH] Hub — Ready!")
 end
 
 -- ==================== ACTIVATE PROTECTION ====================
@@ -31,4 +31,4 @@ Ghost:AntiKickShield()
 Ghost:PlayerGuiShield()
 Ghost:AntiTeleportDetect()
 
-print("Hush hub - LOADED")
+print("[MOH] Hub - LOADED")
