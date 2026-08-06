@@ -652,7 +652,7 @@ function launchMainHub()
     tw(closeBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     task.wait(0.25); tw(divLine, {BackgroundTransparency = 0.4}, 0.4)
 
-    print("[MOH] Premium itashi UI — Ready!")
+    print("[MH]  Premium itashi UI  —  Ready!")
 end
 
 -- ==================== ACTIVATE PROTECTION ====================
@@ -662,5 +662,5 @@ Ghost:AntiKickShield()
 Ghost:PlayerGuiShield()
 Ghost:AntiTeleportDetect()
 
-print("MOH-LOADED")
+print("MH - LOADED")
 
