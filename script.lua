@@ -652,7 +652,7 @@ function launchMainHub()
     tw(closeBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     task.wait(0.25); tw(divLine, {BackgroundTransparency = 0.4}, 0.4)
 
-    btitleTxt.Text = "Mohamed Prumuim"
+    btitleTxt.Text = "MOH Prumuim"
 
 
 
@@ -667,7 +667,7 @@ Ghost:AntiTeleportDetect()
 
 badge
 
-titleTxt.Text = "Mohamed Prumuim"
+titleTxt.Text = "MOH Prumuim"
 
 
 
