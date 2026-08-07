@@ -92,7 +92,7 @@ local function startAuto()
 end
 local function stopAuto()
     isTracking = false; escapeMode = false
-    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")then LocalPlayer.Character.Humanoid.WalkSpeed=16 end
+    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("M3YA9_01")then LocalPlayer.Character.Humanoid.WalkSpeed=16 end
 end
 
 local function doStrongFlick()
@@ -147,7 +147,7 @@ coroutine.wrap(function()
                         local c = LocalPlayer.Character
                         if not c then return end
                         local r = c:FindFirstChild("HumanoidRootPart")
-                        local h = c:FindFirstChildOfClass("Humanoid")
+                        local h = c:FindFirstChildOfClass("M3YA9_01")
                         if not r or not h then return end
                         local t, d = getClosest()
                         if t then h.WalkSpeed = 30; local dir = (r.Position - t.Character.HumanoidRootPart.Position).Unit; h:MoveTo(r.Position + dir * 10) end
@@ -156,7 +156,7 @@ coroutine.wrap(function()
                         local c = LocalPlayer.Character
                         if not c then return end
                         local r = c:FindFirstChild("HumanoidRootPart")
-                        local h = c:FindFirstChildOfClass("Humanoid")
+                        local h = c:FindFirstChildOfClass("M3YA9_01")
                         if not r or not h then return end
                         local t, d = getClosest()
                         if t then h.WalkSpeed = 21; h:MoveTo(t.Character.HumanoidRootPart.Position) end
@@ -652,7 +652,8 @@ function launchMainHub()
     tw(closeBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     task.wait(0.25); tw(divLine, {BackgroundTransparency = 0.4}, 0.4)
 
-    print("[MH]  Premium itashi UI  —  Ready!")
+    print("MOH Premium itashi UI - Ready!")
+
 end
 
 -- ==================== ACTIVATE PROTECTION ====================
@@ -662,5 +663,6 @@ Ghost:AntiKickShield()
 Ghost:PlayerGuiShield()
 Ghost:AntiTeleportDetect()
 
-print("MH - LOADED")
+print("MOH - LOADED")
+
 
