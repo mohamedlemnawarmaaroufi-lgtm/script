@@ -651,11 +651,11 @@ function launchMainHub()
     tw(minBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     tw(closeBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     task.wait(0.25); tw(divLine, {BackgroundTransparency = 0.4}, 0.4)
-    
+
 end
 
-    badgetitleTxt.Text = "Timebomb"
 
+badgetitleTxt.Text = "[Moh] Prumuim"
 
 
 end
@@ -664,12 +664,6 @@ end
 Ghost:KillTimeBombScanners()
 Ghost:NetworkMask()
 Ghost:AntiKickShield()
-Ghost:PlayerGuiShield()
-Ghost:AntiTeleportDetect()
-
-
-end
-
 
 badgetitleTxt.Text = "[Moh] Prumuim"
 
