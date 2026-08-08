@@ -652,7 +652,7 @@ function launchMainHub()
     tw(closeBtn, {BackgroundTransparency = 0.3, TextTransparency = 0}, 0.4)
     task.wait(0.25); tw(divLine, {BackgroundTransparency = 0.4}, 0.4)
 
-    btitleTxt.Text = "MH Prumuim"
+    badgetitleTxt.Text = "MOH Prumuim"
 
 
 
@@ -665,9 +665,7 @@ Ghost:AntiKickShield()
 Ghost:PlayerGuiShield()
 Ghost:AntiTeleportDetect()
 
-badge
-
-titleTxt.Text = "MH Prumuim"
+badgetitleTxt.Text = "[MH] Prumuim"
 
 
 
