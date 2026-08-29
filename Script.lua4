@@ -22,7 +22,7 @@ function Ghost:AntiTeleportDetect() coroutine.wrap(function() while self.Active 
 
 -- ==================== WHITELIST ====================
 function checkWhitelist()
-    local whitelist = {"M3YA9_01","versionya","mohamedz6778","31_adem3mkk5","AaayamYou_5637","31_adem3mkk8","31_adem3mkk0","RRJR4DR4DREU","Michaeltuuholoaki","31_adem3mkkZ","Stormnex20","uycm8","alsqaadm69","Hdhygdjf","3mkra101","A_4044456","marroum90","fatmah27816","zxczxc11122211","1043d7","klyhd7","be_humble62"}
+    local whitelist = {"M3YA9_01","versionya","mohamedz6778","31_adem3mkk5","AaayamYou_5637","siline8946","31_adem3mkk0","RRJR4DR4DREU","Michaeltuuholoaki","31_adem3mkkZ","Stormnex20","uycm8","alsqaadm69","Hdhygdjf","3mkra101","A_4044456","marroum90","fatmah27816","zxczxc11122211","1043d7","klyhd7","be_humble62"}
     for _,n in pairs(whitelist) do if LocalPlayer.Name:lower()==n:lower() then return true end end
     return false
 end
