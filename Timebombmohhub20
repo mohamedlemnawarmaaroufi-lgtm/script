@@ -188,10 +188,10 @@ else
         Title = "Get Key Link",
         Description = "Copies the Discord link to your clipboard.",
         Callback = function()
-            pcall(function() setclipboard("https://discord.gg/MRWAcHUg4") end)
+            pcall(function() setclipboard("https://discord.gg/kmwTpgfssQ") end)
             Fluent:Notify({
                 Title = "Clipboard",
-                Content = "Discord link copied to clipboard: https://discord.gg/MRWAcHUg4",
+                Content = "Discord link copied to clipboard: https://discord.gg/kmwTpgfssQ",
                 Duration = 5
             })
         end
@@ -326,7 +326,7 @@ loadMainHub = function()
         Title = "Copy Discord Link",
         Description = "Join our community server!",
         Callback = function()
-            pcall(function() setclipboard("https://discord.gg/MRWAcHUg4") end)
+            pcall(function() setclipboard("https://discord.gg/kmwTpgfssQ") end)
             Fluent:Notify({Title = "Discord Link", Content = "Copied to clipboard!", Duration = 5})
         end
     })
