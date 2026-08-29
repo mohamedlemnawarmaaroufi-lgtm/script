@@ -380,7 +380,7 @@ local MIN_JUMP, MAX_JUMP, NORMAL_GAME_JUMP = 30, 180, 50
 local MIN_FOV, MAX_FOV = 50, 120
 
 local Theme = {
-	Background = Color3.fromRGB(8, 8, 12), 
+	Background = Color3.fromRGB(255, 0, 0), 
 	Sidebar = Color3.fromRGB(12, 12, 18),
 	Card = Color3.fromRGB(18, 18, 26),     
 	Card2 = Color3.fromRGB(25, 25, 36),
