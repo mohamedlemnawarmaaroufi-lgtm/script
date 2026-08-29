@@ -140,7 +140,7 @@ Eye.Size = UDim2.new(0, 210, 0, 210)
 Eye.Position = UDim2.new(0.5, 0, 0.5, 0)
 Eye.AnchorPoint = Vector2.new(0.5, 0.5)
 Eye.BackgroundTransparency = 1
-Eye.Image = "rbxthumb://type=Asset&id=7292869465&w=420&h=420"
+Eye.Image = "rbxthumb://type=Asset&id=135799434827889&w=420&h=420"
 Eye.ImageTransparency = 1
 Eye.ScaleType = Enum.ScaleType.Fit
 Eye.ZIndex = 4
