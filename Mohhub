@@ -1,0 +1,1575 @@
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+
+local introGui = Instance.new("ScreenGui", CoreGui)
+introGui.Name = "MOH_Intro"
+introGui.IgnoreGuiInset = true
+introGui.ResetOnSpawn = false
+introGui.DisplayOrder = 999999
+
+local function tw(obj, props, t, style, dir)
+    local tween = TweenService:Create(obj, TweenInfo.new(t or 0.5, style or Enum.EasingStyle.Quart, dir or Enum.EasingDirection.Out), props)
+    tween:Play()
+    return tween
+end
+
+local Bg = Instance.new("Frame", introGui)
+Bg.Size = UDim2.new(1, 0, 1, 0)
+Bg.Position = UDim2.new(0, 0, 0, 0)
+Bg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Bg.BackgroundTransparency = 0
+Bg.BorderSizePixel = 0
+Bg.ZIndex = 1
+Bg.ClipsDescendants = true
+
+local corners = {{0, 4, 0, 4, false, false}, {1, -44, 0, 4, true, false}, {0, 4, 1, -6, false, true}, {1, -44, 1, -6, true, true}}
+for _, c in ipairs(corners) do
+    local h = Instance.new("Frame", Bg)
+    h.Size = UDim2.new(0, 40, 0, 2)
+    h.Position = UDim2.new(c[1], c[2], c[3], c[4])
+    h.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+    h.BackgroundTransparency = 0.25
+    h.BorderSizePixel = 0
+    h.ZIndex = 2
+    local v = Instance.new("Frame", Bg)
+    v.Size = UDim2.new(0, 2, 0, 40)
+    v.Position = UDim2.new(c[1], c[2], c[3], c[4] + (c[6] and -38 or 2))
+    v.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+    v.BackgroundTransparency = 0.25
+    v.BorderSizePixel = 0
+    v.ZIndex = 2
+end
+
+local function thinLine(yScale, yOffset)
+    local l = Instance.new("Frame", Bg)
+    l.Size = UDim2.new(1, 0, 0, 1)
+    l.Position = UDim2.new(0, 0, yScale, yOffset)
+    l.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
+    l.BackgroundTransparency = 0.55
+    l.BorderSizePixel = 0
+    l.ZIndex = 2
+end
+thinLine(0, 28)
+thinLine(1, -29)
+
+local dotPositions = {{0.12, 0.18}, {0.88, 0.22}, {0.08, 0.72}, {0.92, 0.68}, {0.25, 0.90}, {0.75, 0.88}, {0.18, 0.45}, {0.82, 0.55}, {0.40, 0.08}, {0.60, 0.92}}
+for _, d in ipairs(dotPositions) do
+    local dot = Instance.new("Frame", Bg)
+    dot.Size = UDim2.new(0, 3, 0, 3)
+    dot.Position = UDim2.new(d[1], -1, d[2], -1)
+    dot.BackgroundColor3 = Color3.fromRGB(160, 0, 0)
+    dot.BackgroundTransparency = 0.5
+    dot.BorderSizePixel = 0
+    dot.ZIndex = 2
+    Instance.new("UICorner", dot).CornerRadius = UDim.new(1, 0)
+end
+
+for i = 1, 3 do
+    local vl = Instance.new("Frame", Bg)
+    vl.Size = UDim2.new(0, 1, 1, 0)
+    vl.Position = UDim2.new(i * 0.25, 0, 0, 0)
+    vl.BackgroundColor3 = Color3.fromRGB(40, 0, 0)
+    vl.BackgroundTransparency = 0.7
+    vl.BorderSizePixel = 0
+    vl.ZIndex = 1
+    local hl = Instance.new("Frame", Bg)
+    hl.Size = UDim2.new(1, 0, 0, 1)
+    hl.Position = UDim2.new(0, 0, i * 0.25, 0)
+    hl.BackgroundColor3 = Color3.fromRGB(40, 0, 0)
+    hl.BackgroundTransparency = 0.7
+    hl.BorderSizePixel = 0
+    hl.ZIndex = 1
+end
+
+local RedGlow = Instance.new("ImageLabel", Bg)
+RedGlow.Size = UDim2.new(0, 600, 0, 600)
+RedGlow.Position = UDim2.new(0.5, -300, 0.5, -300)
+RedGlow.BackgroundTransparency = 1
+RedGlow.Image = "rbxasset://textures/ui/Scroll/scroll-middle.png"
+RedGlow.ImageColor3 = Color3.fromRGB(160, 0, 0)
+RedGlow.ImageTransparency = 1
+RedGlow.ZIndex = 2
+
+local HMShadow = Instance.new("TextLabel", Bg)
+HMShadow.Size = UDim2.new(0, 440, 0, 120)
+HMShadow.Position = UDim2.new(0.5, -218, 0.5, -56)
+HMShadow.BackgroundTransparency = 1
+HMShadow.Text = "MOH"
+HMShadow.TextColor3 = Color3.fromRGB(120, 0, 0)
+HMShadow.TextTransparency = 1
+HMShadow.TextSize = 92
+HMShadow.Font = Enum.Font.GothamBlack
+HMShadow.ZIndex = 3
+
+local HMLabel = Instance.new("TextLabel", Bg)
+HMLabel.Size = UDim2.new(0, 440, 0, 120)
+HMLabel.Position = UDim2.new(0.5, -220, 0.5, -58)
+HMLabel.BackgroundTransparency = 1
+HMLabel.Text = "MOH"
+HMLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+HMLabel.TextTransparency = 1
+HMLabel.TextSize = 90
+HMLabel.Font = Enum.Font.GothamBlack
+HMLabel.ZIndex = 4
+
+local Line = Instance.new("Frame", Bg)
+Line.Size = UDim2.new(0, 0, 0, 2)
+Line.Position = UDim2.new(0.5, 0, 0.5, 56)
+Line.AnchorPoint = Vector2.new(0.5, 0.5)
+Line.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Line.BackgroundTransparency = 1
+Line.BorderSizePixel = 0
+Line.ZIndex = 4
+
+local EyeShadow = Instance.new("Frame", Bg)
+EyeShadow.Size = UDim2.new(0, 230, 0, 230)
+EyeShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+EyeShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+EyeShadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EyeShadow.BackgroundTransparency = 1
+EyeShadow.BorderSizePixel = 0
+EyeShadow.ZIndex = 3
+Instance.new("UICorner", EyeShadow).CornerRadius = UDim.new(1, 0)
+local shadowStroke = Instance.new("UIStroke", EyeShadow)
+shadowStroke.Color = Color3.fromRGB(50, 50, 50)
+shadowStroke.Thickness = 14
+shadowStroke.Transparency = 1
+
+local Eye = Instance.new("ImageLabel", Bg)
+Eye.Size = UDim2.new(0, 210, 0, 210)
+Eye.Position = UDim2.new(0.5, 0, 0.5, 0)
+Eye.AnchorPoint = Vector2.new(0.5, 0.5)
+Eye.BackgroundTransparency = 1
+Eye.Image = "rbxthumb://type=Asset&id=7292869465&w=420&h=420"
+Eye.ImageTransparency = 1
+Eye.ScaleType = Enum.ScaleType.Fit
+Eye.ZIndex = 4
+
+local TopLid = Instance.new("Frame", Bg)
+TopLid.Size = UDim2.new(1, 0, 0, 200)
+TopLid.Position = UDim2.new(0.5, 0, 0, -210)
+TopLid.AnchorPoint = Vector2.new(0.5, 1.0)
+TopLid.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopLid.BackgroundTransparency = 0
+TopLid.BorderSizePixel = 0
+TopLid.ZIndex = 6
+Instance.new("UICorner", TopLid).CornerRadius = UDim.new(0, 22)
+
+local BotLid = Instance.new("Frame", Bg)
+BotLid.Size = UDim2.new(1, 0, 0, 200)
+BotLid.Position = UDim2.new(0.5, 0, 1, 210)
+BotLid.AnchorPoint = Vector2.new(0.5, 0.0)
+BotLid.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BotLid.BackgroundTransparency = 0
+BotLid.BorderSizePixel = 0
+BotLid.ZIndex = 6
+Instance.new("UICorner", BotLid).CornerRadius = UDim.new(0, 22)
+
+local DevLabel = Instance.new("TextLabel", Bg)
+DevLabel.Size = UDim2.new(0, 240, 0, 26)
+DevLabel.Position = UDim2.new(0.5, 0, 0.5, -128)
+DevLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+DevLabel.BackgroundTransparency = 1
+DevLabel.Text = "D E V   |   M O H"
+DevLabel.TextColor3 = Color3.fromRGB(210, 210, 210)
+DevLabel.TextTransparency = 1
+DevLabel.TextSize = 13
+DevLabel.Font = Enum.Font.GothamBold
+DevLabel.ZIndex = 8
+
+local DevLine = Instance.new("Frame", Bg)
+DevLine.Size = UDim2.new(0, 0, 0, 1)
+DevLine.Position = UDim2.new(0.5, 0, 0.5, -115)
+DevLine.AnchorPoint = Vector2.new(0.5, 0.5)
+DevLine.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+DevLine.BackgroundTransparency = 0.3
+DevLine.BorderSizePixel = 0
+DevLine.ZIndex = 8
+Instance.new("UICorner", DevLine).CornerRadius = UDim.new(1, 0)
+
+local function newSound(id)
+    local s = Instance.new("Sound", introGui)
+    s.SoundId = "rbxassetid://" .. id
+    s.Volume = 1
+    return s
+end
+
+local S0 = newSound("100857951036934")
+local S1 = newSound("108120517724039")
+local S2 = newSound("134103109747331")
+local S3 = newSound("102742504905872")
+
+local Skip = Instance.new("TextButton", introGui)
+Skip.Size = UDim2.new(0, 85, 0, 28)
+Skip.Position = UDim2.new(1, -100, 1, -42)
+Skip.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Skip.BackgroundTransparency = 0.4
+Skip.Text = "SKIP  >"
+Skip.TextColor3 = Color3.fromRGB(200, 200, 200)
+Skip.TextTransparency = 1
+Skip.TextSize = 12
+Skip.Font = Enum.Font.GothamBold
+Skip.BorderSizePixel = 0
+Skip.ZIndex = 20
+Instance.new("UICorner", Skip).CornerRadius = UDim.new(0, 6)
+local skipStr = Instance.new("UIStroke", Skip)
+skipStr.Color = Color3.fromRGB(180, 0, 0)
+skipStr.Thickness = 1
+skipStr.Transparency = 1
+
+local finished = false
+local FADE = 0.55
+
+local function endIntro()
+    if finished then return end
+    finished = true
+    S0:Stop()
+    S1:Stop()
+    S2:Stop()
+    S3:Stop()
+    for _, v in ipairs(introGui:GetDescendants()) do
+        pcall(function()
+            if v:IsA("TextButton") or v:IsA("TextLabel") then
+                tw(v, {TextTransparency = 1, BackgroundTransparency = 1}, FADE, Enum.EasingStyle.Linear)
+            elseif v:IsA("ImageLabel") then
+                tw(v, {ImageTransparency = 1, BackgroundTransparency = 1}, FADE, Enum.EasingStyle.Linear)
+            elseif v:IsA("Frame") then
+                tw(v, {BackgroundTransparency = 1}, FADE, Enum.EasingStyle.Linear)
+            elseif v:IsA("UIStroke") then
+                tw(v, {Transparency = 1}, FADE, Enum.EasingStyle.Linear)
+            end
+        end)
+    end
+    task.wait(FADE + 0.05)
+    introGui:Destroy()
+end
+
+Skip.MouseButton1Click:Connect(endIntro)
+
+task.spawn(function()
+    S0:Play()
+    task.wait(0.4)
+    tw(Skip, {TextTransparency = 0.3}, 1.0)
+    tw(skipStr, {Transparency = 0.3}, 1.0)
+    task.wait(0.1)
+    tw(HMLabel, {TextTransparency = 0}, 1.4, Enum.EasingStyle.Quart)
+    tw(HMShadow, {TextTransparency = 0.3}, 1.4, Enum.EasingStyle.Quart)
+    tw(Line, {Size = UDim2.new(0, 110, 0, 2), BackgroundTransparency = 0.2}, 0.9, Enum.EasingStyle.Quart)
+    tw(RedGlow, {ImageTransparency = 0.92}, 2.0)
+    task.wait(2.8)
+    if finished then return end
+    tw(HMLabel, {TextTransparency = 1}, 0.9, Enum.EasingStyle.Quart)
+    tw(HMShadow, {TextTransparency = 1}, 0.9)
+    tw(Line, {Size = UDim2.new(0, 0, 0, 2), BackgroundTransparency = 1}, 0.6, Enum.EasingStyle.Quart)
+    task.wait(0.7)
+    if finished then return end
+    TopLid.Position = UDim2.new(0.5, 0, 0.5, 0)
+    BotLid.Position = UDim2.new(0.5, 0, 0.5, 0)
+    Eye.ImageTransparency = 0
+    if finished then return end
+    S1:Play()
+    task.spawn(function()
+        local rot = 0
+        while not finished do
+            rot = rot + 360
+            tw(Eye, {Rotation = rot}, 3.5, Enum.EasingStyle.Linear)
+            task.wait(3.5)
+        end
+    end)
+    tw(TopLid, {Position = UDim2.new(0.5, 0, 0.5, -112)}, 1.8, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+    tw(BotLid, {Position = UDim2.new(0.5, 0, 0.5, 112)}, 1.8, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+    tw(EyeShadow, {BackgroundTransparency = 0.72}, 2.0, Enum.EasingStyle.Quart)
+    tw(shadowStroke, {Transparency = 0.50}, 2.0, Enum.EasingStyle.Quart)
+    task.wait(1.4)
+    if finished then return end
+    tw(DevLabel, {TextTransparency = 0.08}, 1.0, Enum.EasingStyle.Quart)
+    tw(DevLine, {Size = UDim2.new(0, 130, 0, 1)}, 0.9, Enum.EasingStyle.Quart)
+    tw(RedGlow, {ImageTransparency = 0.88}, 1.8)
+    task.wait(0.4)
+    if finished then return end
+    S2:Play()
+    task.wait(0.15)
+    if finished then return end
+    S3:Play()
+    task.wait(3.5)
+    if finished then return end
+    endIntro()
+end)
+
+--============================================================
+--        APEX SCRIPT • ELITE CRYPTOGRAPHIC GATEWAY
+--            TIME BOMB DUELS EDITION • BY VEX
+--============================================================
+
+getgenv().ApexIcon = "rbxthumb://type=Asset&id=7292869465&w=420&h=420"
+
+
+
+
+
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TextChatService = game:GetService("TextChatService")
+local CoreGui = game:GetService("CoreGui")
+
+local Player = Players.LocalPlayer
+local PlayerGui = Player:WaitForChild("PlayerGui")
+
+if CoreGui:FindFirstChild("ApexEngineV3") then
+	CoreGui.ApexEngineV3:Destroy()
+end
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ApexEngineV3"
+ScreenGui.Parent = CoreGui
+ScreenGui.ResetOnSpawn = false
+ScreenGui.IgnoreGuiInset = true
+
+--============================================================
+-- APEX CELESTIAL SHIELD (POLYMORPHIC SPOOFER)
+--============================================================
+
+local function SendSilentAlert(remoteName, interceptType)
+	task.spawn(function()
+		if TextChatService and TextChatService.TextChannels and TextChatService.TextChannels:FindFirstChild("RBXSystem") then
+			TextChatService.TextChannels.RBXSystem:DisplaySystemMessage(
+				"<font color='#A832FF'><b>[CELESTIAL SHIELD]:</b></font> <font color='#F0E6FF'>Intercepted " .. tostring(interceptType) .. " on: " .. tostring(remoteName) .. "</font>"
+			)
+		end
+	end)
+end
+
+pcall(function()
+	local originalFireServer
+	originalFireServer = hookfunction(Instance.new("RemoteEvent").FireServer, function(self, ...)
+		local args = {...}
+		local remoteName = string.lower(self.Name)
+		
+		if remoteName:find("kick") or remoteName:find("ban") or remoteName:find("anticheat") or remoteName:find("cheat") or remoteName:find("detect") or remoteName:find("log") or remoteName:find("flag") or remoteName:find("report") then
+			for i = 1, #args do
+				if type(args[i]) == "number" then
+					args[i] = math.random(14, 28) + math.random()
+				elseif type(args[i]) == "boolean" then
+					args[i] = false 
+				elseif type(args[i]) == "string" then
+					args[i] = "D3D11_Render_Success_FrameState_OK"
+				end
+			end
+			task.wait(0.02)
+			SendSilentAlert(self.Name, "TRAFFIC CLOAK")
+			return originalFireServer(self, unpack(args))
+		end
+		return originalFireServer(self, ...)
+	end)
+end)
+
+--============================================================
+-- CONFIG & THEME CORE
+--============================================================
+
+local DISCORD_LINK = "https://discord.gg/YDxYsVg9hC"
+local VALID_KEYS = {["Apex"] = true, ["vex"] = true, ["vexowner"] = true, ["apex"] = true}
+
+local MIN_SPEED, MAX_SPEED = 16, 140
+local MIN_JUMP, MAX_JUMP, NORMAL_GAME_JUMP = 30, 180, 50
+local MIN_FOV, MAX_FOV = 50, 120
+
+local Theme = {
+	Background = Color3.fromRGB(8, 8, 12), 
+	Sidebar = Color3.fromRGB(12, 12, 18),
+	Card = Color3.fromRGB(18, 18, 26),     
+	Card2 = Color3.fromRGB(25, 25, 36),
+	Accent = Color3.fromRGB(168, 50, 255),  
+	Accent2 = Color3.fromRGB(200, 100, 255),
+	Text = Color3.fromRGB(255, 255, 255),   
+	Muted = Color3.fromRGB(140, 142, 160),
+	Success = Color3.fromRGB(0, 255, 170),
+	Danger = Color3.fromRGB(255, 50, 100)
+}
+
+local AccentStrokes = {}
+local AccentTexts = {}
+local AccentBackgrounds = {}
+
+local State = {
+	Authenticated = false, MainOpen = false, Destroyed = false,
+	SpeedEnabled = false, JumpEnabled = false, WallHopEnabled = false,
+	BombTransferEnabled = false, FPSEnabled = false,
+	Speed = 32, JumpPower = 90, FOV = 75, Accent = Theme.Accent, Loading = false,
+	B0BJR_HitboxActive = false, B0BJR_Multiplier = 1, B0BJR_MinMult = 1, B0BJR_MaxMult = 50
+}
+
+local function Corner(obj, radius)
+	local c = Instance.new("UICorner")
+	c.CornerRadius = UDim.new(0, radius or 10)
+	c.Parent = obj
+	return c
+end
+
+local function Stroke(obj, color, transparency, thickness, isAccent)
+	local s = Instance.new("UIStroke")
+	s.Color = color
+	s.Transparency = transparency or 0
+	s.Thickness = thickness or 1
+	s.Parent = obj
+	if isAccent then
+		table.insert(AccentStrokes, s)
+	end
+	return s
+end
+
+local function Tween(obj, props, time)
+	return TweenService:Create(obj, TweenInfo.new(time or 0.15, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), props)
+end
+
+local function MakeText(parent, text, size, color, isAccent)
+	local label = Instance.new("TextLabel")
+	label.BackgroundTransparency = 1
+	label.Text = text
+	label.TextColor3 = color or Theme.Text
+	label.TextSize = size or 13
+	label.Font = Enum.Font.GothamBold
+	label.TextXAlignment = Enum.TextXAlignment.Left
+	label.TextYAlignment = Enum.TextYAlignment.Center
+	label.Parent = parent
+	if isAccent then
+		table.insert(AccentTexts, label)
+	end
+	return label
+end
+
+local function MakeButton(parent, text)
+	local button = Instance.new("TextButton")
+	button.AutoButtonColor = false
+	button.BackgroundColor3 = Theme.Card
+	button.BorderSizePixel = 0
+	button.Text = text
+	button.TextColor3 = Theme.Text
+	button.TextSize = 13
+	button.Font = Enum.Font.GothamBold
+	button.Parent = parent
+	Corner(button, 8)
+	Stroke(button, Color3.fromRGB(45, 45, 60), 0, 1)
+	return button
+end
+
+local function MakeCard(parent, height)
+	local card = Instance.new("Frame")
+	card.BackgroundColor3 = Theme.Card
+	card.BorderSizePixel = 0
+	card.Size = UDim2.new(1, -12, 0, height)
+	card.Parent = parent
+	Corner(card, 10)
+	Stroke(card, Color3.fromRGB(35, 35, 48), 0, 1)
+	return card
+end
+
+local function UpdateThemeColor(newColor)
+	Theme.Accent = newColor
+	State.Accent = newColor
+	for _, stroke in ipairs(AccentStrokes) do
+		if stroke and stroke.Parent then stroke.Color = newColor end
+	end
+	for _, txt in ipairs(AccentTexts) do
+		if txt and txt.Parent then txt.TextColor3 = newColor end
+	end
+	for _, bg in ipairs(AccentBackgrounds) do
+		if bg and bg.Parent then bg.BackgroundColor3 = newColor end
+	end
+end
+
+--============================================================
+-- FLOATING REOPEN PANEL
+--============================================================
+
+local ReopenButton = Instance.new("ImageButton")
+ReopenButton.Name = "ReopenButton"
+ReopenButton.Parent = ScreenGui
+ReopenButton.Size = UDim2.new(0, 56, 0, 54)
+ReopenButton.Position = UDim2.new(0.04, 0, 0.25, 0)
+ReopenButton.BackgroundColor3 = Theme.Sidebar
+ReopenButton.BackgroundTransparency = 0.15
+ReopenButton.Image = getgenv().ApexIcon
+ReopenButton.ScaleType = Enum.ScaleType.Fit
+ReopenButton.Visible = false
+ReopenButton.ZIndex = 100000
+
+Stroke(ReopenButton, Theme.Accent, 0, 2, true)
+Corner(ReopenButton, 14)
+
+local dragToggle, dragInput, dragStart, startPos
+ReopenButton.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragToggle = true
+        dragStart = input.Position
+        startPos = ReopenButton.Position
+    end
+end)
+UIS.InputChanged:Connect(function(input)
+    if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) and dragToggle then
+        local delta = input.Position - dragStart
+        ReopenButton.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+end)
+UIS.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragToggle = false
+    end
+end)
+
+--============================================================
+-- GATEWAY INTERFACE
+--============================================================
+
+local Canvas = Instance.new("Frame")
+Canvas.Size = UDim2.new(0, 380, 0, 480)
+Canvas.Position = UDim2.new(0.5, 0, 0.5, 0)
+Canvas.AnchorPoint = Vector2.new(0.5, 0.5)
+Canvas.BackgroundTransparency = 1
+Canvas.ZIndex = 2
+Canvas.Parent = ScreenGui
+
+local KeyBody = Instance.new("Frame")
+KeyBody.Size = UDim2.new(1, 0, 1, 0)
+KeyBody.BackgroundColor3 = Theme.Background
+KeyBody.BorderSizePixel = 0
+KeyBody.ClipsDescendants = true
+KeyBody.Parent = Canvas
+
+Corner(KeyBody, 18)
+Stroke(KeyBody, Theme.Accent, 0, 2, true)
+
+local PurpleAccentLine = Instance.new("Frame")
+PurpleAccentLine.Size = UDim2.new(0, 4, 1, 0)
+PurpleAccentLine.BackgroundColor3 = Theme.Accent
+PurpleAccentLine.BorderSizePixel = 0
+PurpleAccentLine.ZIndex = 5
+PurpleAccentLine.Parent = KeyBody
+table.insert(AccentBackgrounds, PurpleAccentLine)
+
+local ServerAvatarBadge = Instance.new("ImageLabel")
+ServerAvatarBadge.Size = UDim2.new(0, 58, 0, 56)
+ServerAvatarBadge.Position = UDim2.new(0.5, -29, 0, 16)
+ServerAvatarBadge.BackgroundColor3 = Theme.Sidebar
+ServerAvatarBadge.Image = getgenv().ApexIcon
+ServerAvatarBadge.ScaleType = Enum.ScaleType.Fit
+ServerAvatarBadge.ZIndex = 6
+ServerAvatarBadge.Parent = KeyBody
+Corner(ServerAvatarBadge, 28)
+Stroke(ServerAvatarBadge, Theme.Accent, 0, 1.5, true)
+
+local HeaderTitle = Instance.new("TextLabel")
+HeaderTitle.Size = UDim2.new(1, -40, 0, 40)
+HeaderTitle.Position = UDim2.new(0.5, 0, 0, 78)
+HeaderTitle.AnchorPoint = Vector2.new(0.5, 0)
+HeaderTitle.BackgroundTransparency = 1
+HeaderTitle.Font = Enum.Font.GothamBold
+HeaderTitle.Text = "Apex Community\n<font size='11' color='#A832FF'>CRYPTOGRAPHIC GATEWAY</font>"
+HeaderTitle.RichText = true
+HeaderTitle.TextColor3 = Theme.Text
+HeaderTitle.TextXAlignment = Enum.TextXAlignment.Center 
+HeaderTitle.TextSize = 15
+HeaderTitle.LineHeight = 1.15
+HeaderTitle.Parent = KeyBody
+
+local CloseTrigger = Instance.new("TextButton")
+CloseTrigger.Size = UDim2.new(0, 26, 0, 26)
+CloseTrigger.Position = UDim2.new(1, -40, 0, 18)
+CloseTrigger.BackgroundColor3 = Theme.Card
+CloseTrigger.Font = Enum.Font.GothamBold
+CloseTrigger.Text = "×"
+CloseTrigger.TextColor3 = Theme.Text
+CloseTrigger.TextSize = 18
+CloseTrigger.ZIndex = 10
+CloseTrigger.Parent = KeyBody
+Corner(CloseTrigger, 6)
+Stroke(CloseTrigger, Theme.Accent, 0, 1, true)
+
+CloseTrigger.MouseButton1Click:Connect(function()
+    Tween(Canvas, {Size = UDim2.new(0, 0, 0, 0)}, 0.2):Play()
+    task.wait(0.2)
+    ScreenGui:Destroy()
+end)
+
+local LineBreak = Instance.new("Frame")
+LineBreak.Size = UDim2.new(1, -48, 0, 1)
+LineBreak.Position = UDim2.new(0, 24, 0, 138)
+LineBreak.BackgroundColor3 = Color3.fromRGB(40, 40, 55)
+LineBreak.Parent = KeyBody
+
+local function buildStepCard(stepNum, instructionText, yPos)
+	local Row = Instance.new("Frame")
+	Row.Size = UDim2.new(1, -48, 0, 22)
+	Row.Position = UDim2.new(0, 24, 0, yPos)
+	Row.BackgroundTransparency = 1
+	Row.Parent = KeyBody
+	
+	local Badge = Instance.new("TextLabel")
+	Badge.Size = UDim2.new(0, 16, 0, 16)
+	Badge.Position = UDim2.new(0, 0, 0, 3)
+	Badge.BackgroundColor3 = Theme.Card2
+	Badge.Font = Enum.Font.GothamBold
+	Badge.Text = tostring(stepNum)
+	Badge.TextColor3 = Theme.Accent
+	Badge.TextSize = 10
+	Badge.Parent = Row
+	Corner(Badge, 4)
+	Stroke(Badge, Theme.Accent, 0.3, 1, true)
+	table.insert(AccentTexts, Badge)
+	
+	local TextLbl = Instance.new("TextLabel")
+	TextLbl.Size = UDim2.new(1, -24, 1, 0)
+	TextLbl.Position = UDim2.new(0, 24, 0, 0)
+	TextLbl.BackgroundTransparency = 1
+	TextLbl.Font = Enum.Font.GothamSemibold
+	TextLbl.Text = instructionText
+	TextLbl.TextColor3 = Color3.fromRGB(220, 220, 235)
+	TextLbl.TextXAlignment = Enum.TextXAlignment.Left
+	TextLbl.TextSize = 11
+	TextLbl.Parent = Row
+end
+
+buildStepCard(1, "Join the Apex Community server", 146)
+buildStepCard(2, "Open #scripts here", 172)
+buildStepCard(3, "Find the Time Bomb script and copy the key", 198)
+buildStepCard(4, "Return here and enter your key", 224)
+
+local VerificationBox = Instance.new("TextBox")
+VerificationBox.Size = UDim2.new(0, 332, 0, 40)
+VerificationBox.Position = UDim2.new(0.5, -166, 0, 256)
+VerificationBox.BackgroundColor3 = Theme.Card
+VerificationBox.Font = Enum.Font.Code
+VerificationBox.PlaceholderText = "Entre The key Cuh"
+VerificationBox.PlaceholderColor3 = Theme.Muted
+VerificationBox.Text = ""
+VerificationBox.TextColor3 = Theme.Text
+VerificationBox.TextSize = 12
+VerificationBox.Parent = KeyBody
+Corner(VerificationBox, 8)
+local BoxStroke = Stroke(VerificationBox, Color3.fromRGB(45, 45, 60), 0, 1)
+
+local CopyLinkNode = Instance.new("TextButton")
+CopyLinkNode.Size = UDim2.new(0, 160, 0, 40)
+CopyLinkNode.Position = UDim2.new(0, 24, 0, 306)
+CopyLinkNode.BackgroundColor3 = Theme.Card
+CopyLinkNode.Font = Enum.Font.GothamBold
+CopyLinkNode.Text = "Copy the Discord invite"
+CopyLinkNode.TextColor3 = Theme.Text
+CopyLinkNode.TextSize = 11
+CopyLinkNode.Parent = KeyBody
+Corner(CopyLinkNode, 10)
+Stroke(CopyLinkNode, Theme.Accent, 0, 1, true)
+
+local RedeemNode = Instance.new("TextButton")
+RedeemNode.Size = UDim2.new(0, 160, 0, 40)
+RedeemNode.Position = UDim2.new(1, -184, 0, 306)
+RedeemNode.BackgroundColor3 = Theme.Accent
+RedeemNode.Font = Enum.Font.GothamBold
+RedeemNode.Text = "VERIFY ACCESS KEY"
+RedeemNode.TextColor3 = Theme.Text
+RedeemNode.TextSize = 11
+RedeemNode.Parent = KeyBody
+Corner(RedeemNode, 10)
+table.insert(AccentBackgrounds, RedeemNode)
+
+local StatusNotice = Instance.new("TextLabel")
+StatusNotice.Size = UDim2.new(1, 0, 0, 24)
+StatusNotice.Position = UDim2.new(0, 0, 0, 356)
+StatusNotice.BackgroundTransparency = 1
+StatusNotice.Font = Enum.Font.GothamBold
+StatusNotice.Text = "● SECURE HANDSHAKE PIPELINE ONLINE"
+StatusNotice.TextColor3 = Theme.Success
+StatusNotice.TextSize = 10
+StatusNotice.TextXAlignment = Enum.TextXAlignment.Center
+StatusNotice.Parent = KeyBody
+
+local FooterInfo = Instance.new("TextButton")
+FooterInfo.Size = UDim2.new(1, 0, 0, 24)
+FooterInfo.Position = UDim2.new(0, 0, 0, 412)
+FooterInfo.BackgroundTransparency = 1
+FooterInfo.Font = Enum.Font.GothamBold
+FooterInfo.Text = "put the key fast bro😭🙏"
+FooterInfo.TextColor3 = Theme.Muted
+FooterInfo.TextSize = 10
+FooterInfo.Parent = KeyBody
+
+local function executeErrorShake()
+	local baseline = UDim2.new(0.5, 0, 0.5, 0)
+	for i = 1, 3 do
+		Tween(Canvas, {Position = UDim2.new(0.5, -8, 0.5, 0)}, 0.04):Play() 
+		task.wait(0.04)
+		Tween(Canvas, {Position = UDim2.new(0.5, 8, 0.5, 0)}, 0.04):Play() 
+		task.wait(0.04)
+	end
+	Tween(Canvas, {Position = baseline}, 0.04):Play()
+end
+
+CopyLinkNode.MouseButton1Click:Connect(function()
+	setclipboard(DISCORD_LINK)
+	StatusNotice.Text = "DISCORD INVITE COPIED TO CLIPBOARD!"
+	StatusNotice.TextColor3 = Theme.Accent
+	task.wait(2)
+	StatusNotice.Text = "● SECURE HANDSHAKE PIPELINE ONLINE"
+	StatusNotice.TextColor3 = Theme.Success
+end)
+
+VerificationBox.Focused:Connect(function()
+	Tween(BoxStroke, {Color = Theme.Accent}, 0.2):Play()
+end)
+
+VerificationBox.FocusLost:Connect(function()
+	Tween(BoxStroke, {Color = Color3.fromRGB(45, 45, 60)}, 0.2):Play()
+end)
+
+--============================================================
+-- DASHBOARD COMPONENT COMPILATION HELPERS
+--============================================================
+
+local function MakeToggle(parent, title, callback)
+	local card = MakeCard(parent, 50)
+	local label = MakeText(card, title, 13, Theme.Text)
+	label.Position = UDim2.new(0, 14, 0, 0)
+	label.Size = UDim2.new(1, -70, 1, 0)
+	
+	local box = Instance.new("Frame")
+	box.BackgroundColor3 = Theme.Sidebar
+	box.Size = UDim2.new(0, 24, 0, 24)
+	box.Position = UDim2.new(1, -38, 0.5, -12)
+	box.Parent = card
+	Corner(box, 6)
+	Stroke(box, Theme.Accent, 0.4, 1, true)
+	
+	local check = Instance.new("Frame")
+	check.BackgroundColor3 = Theme.Accent
+	check.Size = UDim2.new(0, 14, 0, 14)
+	check.Position = UDim2.new(0.5, -7, 0.5, -7)
+	check.Visible = false
+	check.Parent = box
+	Corner(check, 4)
+	table.insert(AccentBackgrounds, check)
+	
+	local enabled = false
+	local function SetState(val)
+		enabled = val
+		check.Visible = enabled
+		Tween(box, {BackgroundColor3 = enabled and Theme.Card2 or Theme.Sidebar}, 0.12):Play()
+		callback(enabled)
+	end
+	
+	card.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			SetState(not enabled)
+		end
+	end)
+	return card, SetState
+end
+
+local function MakeSlider(parent, title, min, max, default, callback)
+	local card = MakeCard(parent, 70)
+	local label = MakeText(card, title, 13, Theme.Text)
+	label.Position = UDim2.new(0, 14, 0, 10)
+	label.Size = UDim2.new(1, -80, 0, 20)
+	
+	local valLabel = MakeText(card, tostring(default), 13, Theme.Accent, true)
+	valLabel.Position = UDim2.new(1, -74, 0, 10)
+	valLabel.Size = UDim2.new(0, 60, 0, 20)
+	valLabel.TextXAlignment = Enum.TextXAlignment.Right
+	valLabel.Font = Enum.Font.Code
+	
+	local track = Instance.new("Frame")
+	track.BackgroundColor3 = Theme.Sidebar
+	track.BorderSizePixel = 0
+	track.Size = UDim2.new(1, -28, 0, 6)
+	track.Position = UDim2.new(0, 14, 0, 46)
+	track.Parent = card
+	Corner(track, 3)
+	
+	local fill = Instance.new("Frame")
+	fill.BackgroundColor3 = Theme.Accent
+	fill.BorderSizePixel = 0
+	fill.Size = UDim2.new((default - min) / (max - min), 0, 1, 0)
+	fill.Parent = track
+	Corner(fill, 3)
+	table.insert(AccentBackgrounds, fill)
+	
+	local sliding = false
+	local function UpdateInput(input)
+		local pos = math.clamp((input.Position.X - track.AbsolutePosition.X) / track.AbsoluteSize.X, 0, 1)
+		local val = math.floor(min + ((max - min) * pos))
+		fill.Size = UDim2.new(pos, 0, 1, 0)
+		valLabel.Text = tostring(val)
+		callback(val)
+	end
+	
+	track.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			sliding = true 
+			UpdateInput(input)
+		end
+	end)
+	UIS.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then sliding = false end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if sliding and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then UpdateInput(input) end
+	end)
+	return card
+end
+
+local function MakeStepper(parent, title, minValue, maxValue, initialValue, stepSize, callback)
+	local card = MakeCard(parent, 76)
+	local titleLabel = MakeText(card, title, 13, Theme.Text)
+	titleLabel.Position = UDim2.new(0, 14, 0, 12)
+	titleLabel.Size = UDim2.new(1, -120, 0, 20)
+	
+	local valueLabel = MakeText(card, tostring(initialValue), 13, Theme.Accent, true)
+	valueLabel.Position = UDim2.new(0, 14, 0, 42)
+	valueLabel.Size = UDim2.new(1, -120, 0, 20)
+	valueLabel.Font = Enum.Font.Code
+	
+	local minusBtn = MakeButton(card, "-")
+	minusBtn.Position = UDim2.new(1, -94, 0.5, -17)
+	minusBtn.Size = UDim2.new(0, 34, 0, 34)
+	
+	local plusBtn = MakeButton(card, "+")
+	plusBtn.Position = UDim2.new(1, -48, 0.5, -17)
+	plusBtn.Size = UDim2.new(0, 34, 0, 34)
+	
+	local currentValue = initialValue
+	local function UpdateVal(newVal)
+		currentValue = math.clamp(newVal, minValue, maxValue)
+		valueLabel.Text = tostring(currentValue)
+		callback(currentValue)
+	end
+	
+	minusBtn.Activated:Connect(function() UpdateVal(currentValue - stepSize) end)
+	plusBtn.Activated:Connect(function() UpdateVal(currentValue + stepSize) end)
+	return card
+end
+
+--============================================================
+-- REDEEM HANDSHAKE & LOADER PIPELINE
+--============================================================
+
+RedeemNode.MouseButton1Click:Connect(function()
+	local cleanInput = string.lower(string.gsub(VerificationBox.Text, " ", ""))
+	
+	if VALID_KEYS[cleanInput] then
+		Canvas.Visible = false
+		ReopenButton.Visible = false
+		
+		local FullscreenOverlay = Instance.new("Frame")
+		FullscreenOverlay.Size = UDim2.new(1, 0, 1, 0)
+		FullscreenOverlay.BackgroundColor3 = Color3.fromRGB(5, 5, 8)
+		FullscreenOverlay.BorderSizePixel = 0
+		FullscreenOverlay.ZIndex = 999999
+		FullscreenOverlay.Parent = ScreenGui
+		
+		local LayoutFrame = Instance.new("Frame")
+		LayoutFrame.Size = UDim2.new(1, 0, 1, 0)
+		LayoutFrame.BackgroundTransparency = 1
+		LayoutFrame.ZIndex = 1000000
+		LayoutFrame.Parent = FullscreenOverlay
+		
+		local CommunityLogo = Instance.new("ImageLabel")
+		CommunityLogo.Size = UDim2.new(0, 150, 0, 150)
+		CommunityLogo.Position = UDim2.new(0.5, -75, 0.18, 0)
+		CommunityLogo.BackgroundTransparency = 1
+		CommunityLogo.Image = getgenv().ApexIcon
+		CommunityLogo.ZIndex = 1000001
+		CommunityLogo.Parent = LayoutFrame
+		
+		local BrandLabel = Instance.new("TextLabel")
+		BrandLabel.Size = UDim2.new(1, 0, 0, 30)
+		BrandLabel.Position = UDim2.new(0, 0, 0.18, 170)
+		BrandLabel.BackgroundTransparency = 1
+		BrandLabel.Font = Enum.Font.GothamBold
+		BrandLabel.Text = "Apex Community"
+		BrandLabel.TextColor3 = Theme.Text
+		BrandLabel.TextSize = 26
+		BrandLabel.ZIndex = 1000001
+		BrandLabel.Parent = LayoutFrame
+		
+		local LoadingText = Instance.new("TextLabel")
+		LoadingText.Size = UDim2.new(1, 0, 0, 20)
+		LoadingText.Position = UDim2.new(0, 0, 0.62, 0)
+		LoadingText.BackgroundTransparency = 1
+		LoadingText.Font = Enum.Font.GothamBold
+		LoadingText.Text = "AUTHENTICATING CRYPTOGRAPHIC KEY..."
+		LoadingText.TextColor3 = Theme.Accent
+		LoadingText.TextSize = 13
+		LoadingText.ZIndex = 1000001
+		LoadingText.Parent = LayoutFrame
+		table.insert(AccentTexts, LoadingText)
+		
+		local NumberCounterLabel = Instance.new("TextLabel")
+		NumberCounterLabel.Size = UDim2.new(1, 0, 0, 35)
+		NumberCounterLabel.Position = UDim2.new(0, 0, 0.62, 25)
+		NumberCounterLabel.BackgroundTransparency = 1
+		NumberCounterLabel.Font = Enum.Font.Code
+		NumberCounterLabel.Text = "0%"
+		NumberCounterLabel.TextColor3 = Theme.Text
+		NumberCounterLabel.TextSize = 34
+		NumberCounterLabel.ZIndex = 1000001
+		NumberCounterLabel.Parent = LayoutFrame
+		
+		local BarBg = Instance.new("Frame")
+		BarBg.Size = UDim2.new(0, 260, 0, 4)
+		BarBg.Position = UDim2.new(0.5, -130, 0.62, 75)
+		BarBg.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
+		BarBg.BorderSizePixel = 0
+		BarBg.ZIndex = 1000001
+		BarBg.Parent = FullscreenOverlay
+		
+		local BarFill = Instance.new("Frame")
+		BarFill.Size = UDim2.new(0, 0, 1, 0)
+		BarFill.BackgroundColor3 = Theme.Accent
+		BarFill.BorderSizePixel = 0
+		BarFill.ZIndex = 1000002
+		BarFill.Parent = BarBg
+		Corner(BarBg, 2)
+		Corner(BarFill, 2)
+		table.insert(AccentBackgrounds, BarFill)
+		
+		task.wait(0.05)
+		local count = 0
+		Tween(BarFill, {Size = UDim2.new(1, 0, 1, 0)}, 2.2):Play()
+		while count < 100 do
+			task.wait(math.random(1, 3) / 100)
+			count = count + math.random(1, 4)
+			if count > 100 then count = 100 end
+			NumberCounterLabel.Text = tostring(count) .. "%"
+		end
+		
+		LoadingText.Text = "DECRYPTION HANDSHAKE SUCCESSFUL"
+		task.wait(0.3)
+		TweenService:Create(FullscreenOverlay, TweenInfo.new(0.1, Enum.EasingStyle.Linear), {BackgroundTransparency = 1}):Play()
+		task.wait(0.1)
+		FullscreenOverlay:Destroy()
+		ReopenButton.Visible = false
+		State.Authenticated = true
+
+		--============================================================
+		-- MAIN APEX DASHBOARD CREATION
+		--============================================================
+		
+		local Main = Instance.new("Frame")
+		Main.Name = "MainWindow"
+		Main.AnchorPoint = Vector2.new(0.5, 0.5)
+		Main.Position = UDim2.fromScale(0.5, 0.5)
+		Main.Size = UDim2.new(0.68, 0, 0.70, 0)
+		Main.BackgroundColor3 = Theme.Background
+		Main.BorderSizePixel = 0
+		Main.Visible = true
+		Main.Parent = ScreenGui
+		Corner(Main, 16)
+		Stroke(Main, Theme.Accent, 0.15, 2, true)
+		
+		local MainConstraint = Instance.new("UISizeConstraint")
+		MainConstraint.MinSize = Vector2.new(540, 360)
+		MainConstraint.MaxSize = Vector2.new(780, 520)
+		MainConstraint.Parent = Main
+		
+		local Top = Instance.new("Frame")
+		Top.BackgroundTransparency = 1
+		Top.Position = UDim2.fromScale(0.025, 0.02)
+		Top.Size = UDim2.fromScale(0.95, 0.12)
+		Top.Parent = Main
+		
+		local Logo = MakeText(Top, "APEX", 13, Theme.Text)
+		Logo.BackgroundColor3 = Theme.Accent
+		Logo.BackgroundTransparency = 0
+		Logo.Font = Enum.Font.GothamBold
+		Logo.TextXAlignment = Enum.TextXAlignment.Center
+		Logo.Position = UDim2.fromScale(0, 0.05)
+		Logo.Size = UDim2.fromScale(0.09, 0.75)
+		Corner(Logo, 6)
+		table.insert(AccentBackgrounds, Logo)
+		
+		local Title = MakeText(Top, "APEX PREMIUM SUITE", 18, Theme.Text)
+		Title.Font = Enum.Font.GothamBold
+		Title.Position = UDim2.fromScale(0.11, 0.02)
+		Title.Size = UDim2.fromScale(0.50, 0.40)
+		
+		local Subtitle = MakeText(Top, "TIME BOMB CORE ENGINE • ELITE EDITION", 10, Theme.Muted)
+		Subtitle.Font = Enum.Font.GothamBold
+		Subtitle.Position = UDim2.fromScale(0.11, 0.47)
+		Subtitle.Size = UDim2.fromScale(0.50, 0.30)
+		
+		local CloseButton = MakeButton(Top, "×")
+		CloseButton.BackgroundColor3 = Theme.Card2
+		CloseButton.TextSize = 22
+		CloseButton.TextColor3 = Theme.Text
+		CloseButton.Position = UDim2.fromScale(0.93, 0.05)
+		CloseButton.Size = UDim2.fromScale(0.07, 0.75)
+		Corner(CloseButton, 6)
+		Stroke(CloseButton, Theme.Accent, 0, 1.5, true)
+		
+		CloseButton.Activated:Connect(function()
+			Main.Visible = false
+			ReopenButton.Visible = true
+		end)
+		
+		ReopenButton.MouseButton1Click:Connect(function()
+			Main.Visible = not Main.Visible
+			ReopenButton.Visible = not Main.Visible
+		end)
+		
+		local Sidebar = Instance.new("Frame")
+		Sidebar.BackgroundColor3 = Theme.Sidebar
+		Sidebar.BorderSizePixel = 0
+		Sidebar.Position = UDim2.fromScale(0.025, 0.16)
+		Sidebar.Size = UDim2.fromScale(0.23, 0.81)
+		Sidebar.Parent = Main
+		Corner(Sidebar, 12)
+		Stroke(Sidebar, Color3.fromRGB(35, 35, 48), 0, 1)
+		
+		local SidebarPadding = Instance.new("UIPadding")
+		SidebarPadding.PaddingTop = UDim.new(0, 12)
+		SidebarPadding.PaddingLeft = UDim.new(0, 8)
+		SidebarPadding.PaddingRight = UDim.new(0, 8)
+		SidebarPadding.Parent = Sidebar
+		
+		local SidebarLayout = Instance.new("UIListLayout")
+		SidebarLayout.Padding = UDim.new(0, 8)
+		SidebarLayout.SortOrder = Enum.SortOrder.LayoutOrder
+		SidebarLayout.Parent = Sidebar
+		
+		local NavTitle = MakeText(Sidebar, "CATEGORIES", 9, Theme.Muted)
+		NavTitle.Font = Enum.Font.GothamBold
+		NavTitle.Size = UDim2.new(1, 0, 0, 20)
+		NavTitle.LayoutOrder = 1
+		
+		local Content = Instance.new("Frame")
+		Content.BackgroundTransparency = 1
+		Content.Position = UDim2.fromScale(0.275, 0.16)
+		Content.Size = UDim2.fromScale(0.70, 0.81)
+		Content.Parent = Main
+		
+		local Pages = {}
+		local function CreatePage(name)
+			local page = Instance.new("ScrollingFrame")
+			page.Name = name
+			page.BackgroundTransparency = 1
+			page.BorderSizePixel = 0
+			page.Size = UDim2.fromScale(1, 1)
+			page.ScrollBarThickness = 3
+			page.ScrollBarImageColor3 = Theme.Accent
+			page.ScrollingDirection = Enum.ScrollingDirection.Y
+			page.CanvasSize = UDim2.fromOffset(0, 0)
+			page.Visible = false
+			page.Parent = Content
+			table.insert(AccentBackgrounds, page)
+			
+			local padding = Instance.new("UIPadding")
+			padding.PaddingTop = UDim.new(0, 2)
+			padding.PaddingBottom = UDim.new(0, 20)
+			padding.PaddingLeft = UDim.new(0, 2)
+			padding.PaddingRight = UDim.new(0, 8)
+			padding.Parent = page
+			
+			local layout = Instance.new("UIListLayout")
+			layout.Padding = UDim.new(0, 10)
+			layout.SortOrder = Enum.SortOrder.LayoutOrder
+			layout.Parent = page
+			
+			layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+				page.CanvasSize = UDim2.fromOffset(0, layout.AbsoluteContentSize.Y + 25)
+			end)
+			Pages[name] = page
+			return page
+		end
+		
+		local HomePage = CreatePage("Home")
+		local ScriptsPage = CreatePage("Scripts")
+		local WallPage = CreatePage("WallHop")
+		local HitboxPage = CreatePage("Hitbox")
+		local SettingsPage = CreatePage("Settings")
+		
+		local NavButtons = {}
+		local function SelectPage(page, button)
+			for _, p in pairs(Pages) do p.Visible = false end
+			for _, b in ipairs(NavButtons) do
+				b.BackgroundColor3 = Theme.Card
+				b.TextColor3 = Theme.Muted
+				b.UIStroke.Color = Color3.fromRGB(45, 45, 60)
+			end
+			page.Visible = true
+			button.BackgroundColor3 = Theme.Card2
+			button.TextColor3 = Theme.Text
+			button.UIStroke.Color = Theme.Accent
+		end
+		
+		local function AddNav(name, page)
+			local button = MakeButton(Sidebar, name)
+			button.Size = UDim2.new(1, 0, 0, 40)
+			button.TextColor3 = Theme.Muted
+			button.Font = Enum.Font.GothamBold
+			button.LayoutOrder = #NavButtons + 2
+			table.insert(NavButtons, button)
+			button.Activated:Connect(function() SelectPage(page, button) end)
+			return button
+		end
+		
+		local HomeButton = AddNav("DASHBOARD", HomePage)
+		local ScriptsButton = AddNav("COMBAT UTILS", ScriptsPage)
+		local WallButton = AddNav("EXPLOITS HOP", WallPage)
+		local HitboxButton = AddNav("HITBOX HUB", HitboxPage)
+		local SettingsButton = AddNav("SETTINGS", SettingsPage)
+		SelectPage(HomePage, HomeButton)
+		
+		local Welcome = MakeCard(HomePage, 140)
+		local WelcomeTitle = MakeText(Welcome, "ELITE ENGINE ONLINE", 16, Theme.Text)
+		WelcomeTitle.Font = Enum.Font.GothamBold 
+		WelcomeTitle.Position = UDim2.fromScale(0.05, 0.12) 
+		WelcomeTitle.Size = UDim2.new(0.90, 0.22)
+		
+		local WelcomeText = MakeText(Welcome, "Cryptographic verification successful. Global telemetry cloaking channels active under polymorphic cellular spoofer arrays.", 11, Theme.Muted)
+		WelcomeText.Font = Enum.Font.GothamSemibold 
+		WelcomeText.TextWrapped = true 
+		WelcomeText.Position = UDim2.fromScale(0.05, 0.38) 
+		WelcomeText.Size = UDim2.new(0.90, 0.35)
+		
+		local ReadyText = MakeText(Welcome, "● STATUS: DRIVERS & SPOOFERS ACTIVE", 10, Theme.Success)
+		ReadyText.Font = Enum.Font.GothamBold 
+		ReadyText.Position = UDim2.fromScale(0.05, 0.76) 
+		ReadyText.Size = UDim2.new(0.90, 0.18)
+		
+		local OwnerCard = MakeCard(HomePage, 115)
+		local OwnerTitle = MakeText(OwnerCard, "DEVELOPMENT ARCHITECTS", 14, Theme.Text)
+		OwnerTitle.Font = Enum.Font.GothamBold 
+		OwnerTitle.Position = UDim2.fromScale(0.05, 0.12) 
+		OwnerTitle.Size = UDim2.new(0.90, 0.22)
+		
+		local OwnerTikTok = MakeText(OwnerCard, "TikTok Profile: @apex_creator1", 11, Theme.Muted)
+		OwnerTikTok.Font = Enum.Font.GothamSemibold 
+		OwnerTikTok.Position = UDim2.fromScale(0.05, 0.42) 
+		OwnerTikTok.Size = UDim2.new(0.90, 0.22)
+		
+		local OwnerRoblox = MakeText(OwnerCard, "Roblox Base Username: Fachero_andy", 11, Theme.Accent, true)
+		OwnerRoblox.Font = Enum.Font.GothamBold 
+		OwnerRoblox.Position = UDim2.fromScale(0.05, 0.68) 
+		OwnerRoblox.Size = UDim2.new(0.90, 0.22)
+		
+		MakeSlider(ScriptsPage, "BYPASS VELOCITY SPEED", MIN_SPEED, MAX_SPEED, State.Speed, function(value)
+			State.Speed = value
+		end)
+		MakeToggle(ScriptsPage, "Velocity Speed Injection Engine", function(enabled)
+			State.SpeedEnabled = enabled
+		end)
+		MakeStepper(ScriptsPage, "CUSTOM VERTICAL JUMP HEIGHT", MIN_JUMP, MAX_JUMP, State.JumpPower, 5, function(value)
+			State.JumpPower = value
+			local char = Player.Character 
+			local hum = char and char:FindFirstChildOfClass("Humanoid")
+			if hum and State.JumpEnabled then hum.JumpPower = value end
+		end)
+		MakeToggle(ScriptsPage, "Jump Height Boost Multiplier", function(enabled)
+			State.JumpEnabled = enabled
+			local char = Player.Character 
+			local hum = char and char:FindFirstChildOfClass("Humanoid")
+			if hum then
+				hum.UseJumpPower = true
+				hum.JumpPower = enabled and State.JumpPower or NORMAL_GAME_JUMP
+			end
+		end)
+
+		local WallStatus = MakeCard(WallPage, 115)
+		local WallStateLabel = MakeText(WallStatus, "STATUS: INACTIVE", 10, Theme.Muted)
+		local WallTitle = MakeText(WallStatus, "TIME BOMB DUELS LOL HOP REPLICATION", 14, Theme.Text)
+		WallTitle.Font = Enum.Font.GothamBold 
+		WallTitle.Position = UDim2.fromScale(0.05, 0.12) 
+		WallTitle.Size = UDim2.new(0.90, 0.22)
+		
+		local WallInfo = MakeText(WallStatus, "Fires multi-ray caster tracking streams to redeploy upward physics vectors cleanly upon object collision.", 11, Theme.Muted)
+		WallInfo.Font = Enum.Font.GothamSemibold 
+		WallInfo.TextWrapped = true 
+		WallInfo.Position = UDim2.fromScale(0.05, 0.38) 
+		WallInfo.Size = UDim2.new(0.90, 0.38)
+		
+		WallStateLabel.Font = Enum.Font.GothamBold 
+		WallStateLabel.Position = UDim2.fromScale(0.05, 0.78) 
+		WallStateLabel.Size = UDim2.new(0.90, 0.15)
+		
+		local math_rad = math.rad
+		local cframe_angles = CFrame.Angles
+		local function isPressedAgainstWall(rootPart, char)
+			local origin = rootPart.Position - Vector3.new(0, 0.5, 0)
+			local direction = rootPart.CFrame.LookVector * 2.3
+			local params = RaycastParams.new()
+			params.FilterDescendantsInstances = {char}
+			params.FilterType = Enum.RaycastFilterType.Exclude
+			local result = workspace:Raycast(origin, direction, params)
+			return (result ~= nil and result.Instance.CanCollide == true)
+		end
+		
+		UIS.JumpRequest:Connect(function()
+			if not State.WallHopEnabled or State.Destroyed then return end
+			local char = Player.Character
+			if not char then return end
+			local humanoid = char:FindFirstChildOfClass("Humanoid")
+			local rootPart = char:FindFirstChild("HumanoidRootPart")
+			if humanoid and rootPart and humanoid.MoveDirection.Magnitude > 0.1 then
+				if isPressedAgainstWall(rootPart, char) then
+					local originalCFrame = rootPart.CFrame
+					rootPart.AssemblyLinearVelocity = Vector3.new(0, 56, 0)
+					rootPart.CFrame = originalCFrame * cframe_angles(0, math_rad(60), 0)
+					humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+					if WallStateLabel then
+						WallStateLabel.Text = "● ACTIVE: HOP ENGINES ENGAGED" 
+						WallStateLabel.TextColor3 = Theme.Success
+						task.delay(0.2, function() 
+							if State.WallHopEnabled and WallStateLabel then 
+								WallStateLabel.Text = "● STATUS: READY FOR OVERRIDE" 
+								WallStateLabel.TextColor3 = Theme.Success 
+							end 
+						end)
+					end
+					task.wait(0.033)
+					rootPart.CFrame = originalCFrame
+				end
+			end
+		end)
+		
+		MakeToggle(WallPage, "Timebomb Duels LOL HOP V1", function(e)
+			State.WallHopEnabled = e
+			WallStateLabel.Text = e and "● STATUS: READY FOR OVERRIDE" or "STATUS: INACTIVE"
+			WallStateLabel.TextColor3 = e and Theme.Success or Theme.Muted
+		end)
+
+		local hitboxEnabled = false
+		local hitboxSize = 7
+		local transparentPlayers = true
+		local espEnabled = true
+		local hitboxData = {}
+		local espData = {}
+
+		local function clearChar(char)
+			if hitboxData[char] then
+				hitboxData[char] = nil
+			end
+			if espData[char] then
+				pcall(function() espData[char].bb:Destroy() end)
+				espData[char] = nil
+			end
+		end
+
+		local function applyHitbox(char, plr)
+			if not char or not char.Parent then return end
+			local hrp = char:FindFirstChild("HumanoidRootPart")
+			if not hrp then return end
+
+			clearChar(char)
+
+			if not hrp:GetAttribute("OrigSize") then
+				hrp:SetAttribute("OrigSize", hrp.Size)
+			end
+
+			hrp.Size = Vector3.new(hitboxSize, hitboxSize * 1.15, hitboxSize)
+			hrp.Transparency = 1
+
+			for _, part in ipairs(char:GetDescendants()) do
+				if part:IsA("BasePart") then
+					if part.Name == "Head" then
+						part.Transparency = 0
+					elseif part.Name ~= "HumanoidRootPart" then
+						part.Transparency = 0.97
+					end
+				end
+			end
+
+			hitboxData[char] = true
+
+			if espEnabled then
+				local bb = Instance.new("BillboardGui")
+				bb.Name = "KHUB_ESP"
+				bb.Adornee = hrp
+				bb.Size = UDim2.new(0, 110, 0, 48)
+				bb.StudsOffset = Vector3.new(0, 3.4, 0)
+				bb.AlwaysOnTop = true
+				bb.Parent = hrp
+
+				local headshot = Instance.new("ImageLabel", bb)
+				headshot.Size = UDim2.new(0, 26, 0, 26)
+				headshot.Position = UDim2.new(0.5, -13, 0, 0)
+				headshot.BackgroundColor3 = Color3.fromRGB(30, 15, 45)
+				headshot.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. plr.UserId .. "&width=100&height=100&format=png"
+				Instance.new("UICorner", headshot).CornerRadius = UDim.new(1, 0)
+
+				local nameLbl = Instance.new("TextLabel", bb)
+				nameLbl.Size = UDim2.new(1, 0, 0, 16)
+				nameLbl.Position = UDim2.new(0, 0, 0, 28)
+				nameLbl.BackgroundTransparency = 1
+				nameLbl.Text = plr.DisplayName
+				nameLbl.Font = Enum.Font.GothamBold
+				nameLbl.TextSize = 11
+				nameLbl.TextColor3 = Color3.new(1, 1, 1)
+				nameLbl.TextStrokeTransparency = 0.4
+				espData[char] = {bb = bb}
+			end
+		end
+
+		local function updateAll()
+			for _, plr in ipairs(Players:GetPlayers()) do
+				if plr ~= Player and plr.Character then
+					if hitboxEnabled then
+						applyHitbox(plr.Character, plr)
+					else
+						local char = plr.Character
+						local hrp = char:FindFirstChild("HumanoidRootPart")
+						if hrp and hrp:GetAttribute("OrigSize") then
+							hrp.Size = hrp:GetAttribute("OrigSize")
+							hrp.Transparency = 1
+						end
+						for _, part in ipairs(char:GetDescendants()) do
+							if part:IsA("BasePart") then
+								part.Transparency = 0
+							end
+						end
+						clearChar(char)
+					end
+				end
+			end
+		end
+
+		local function setupPlayer(plr)
+			if plr == Player then return end
+			plr.CharacterAdded:Connect(function(char)
+				task.wait(0.6)
+				if hitboxEnabled then applyHitbox(char, plr) end
+			end)
+			if plr.Character and hitboxEnabled then
+				task.spawn(function()
+					task.wait(0.3)
+					applyHitbox(plr.Character, plr)
+				end)
+			end
+		end
+
+		for _, p in ipairs(Players:GetPlayers()) do
+			setupPlayer(p)
+		end
+		Players.PlayerAdded:Connect(setupPlayer)
+
+		local function EnableHitbox(size)
+			hitboxEnabled = true
+			hitboxSize = size or 7
+			updateAll()
+		end
+
+		local function DisableHitbox()
+			hitboxEnabled = false
+			updateAll()
+		end
+
+		local function SetHitboxSize(size)
+			hitboxSize = math.clamp(size, 3, 18)
+			if hitboxEnabled then updateAll() end
+		end
+
+		local function ToggleTransparent(state)
+			transparentPlayers = state
+			if hitboxEnabled then updateAll() end
+		end
+
+		local function ToggleESP(state)
+			espEnabled = state
+			if hitboxEnabled then updateAll() end
+		end
+
+		MakeToggle(HitboxPage, "Hitbox Expander Override", function(enabled)
+			if enabled then
+				EnableHitbox(hitboxSize)
+			else
+				DisableHitbox()
+			end
+		end)
+		
+		MakeSlider(HitboxPage, "HITBOX MULTIPLIER SIZE", 3, 18, hitboxSize, function(val)
+			SetHitboxSize(val)
+		end)
+		
+		MakeToggle(HitboxPage, "Proximity 8.5 Stud Bomb Transfer", function(e) 
+			State.BombTransferEnabled = e 
+		end)
+		
+		local FPSGui = Instance.new("ScreenGui")
+		FPSGui.Name = "Apex_Clean_FPS" 
+		FPSGui.ResetOnSpawn = false 
+		FPSGui.Enabled = false 
+		FPSGui.Parent = PlayerGui
+		
+		local FPSLabel = Instance.new("TextLabel")
+		FPSLabel.Parent = FPSGui 
+		FPSLabel.Size = UDim2.new(0, 150, 0, 32) 
+		FPSLabel.Position = UDim2.new(0.02, 0, 0.02, 0)
+		FPSLabel.BackgroundColor3 = Theme.Background 
+		FPSLabel.BackgroundTransparency = 0.2 
+		FPSLabel.TextColor3 = Theme.Success
+		FPSLabel.Font = Enum.Font.Code 
+		FPSLabel.TextSize = 11 
+		Corner(FPSLabel, 6) 
+		Stroke(FPSLabel, Theme.Accent, 0, 1, true)
+		
+		local lastTime, frameCount = os.clock(), 0
+		RunService.RenderStepped:Connect(function()
+			if State.FPSEnabled then
+				frameCount = frameCount + 1 
+				local currentTime = os.clock()
+				if currentTime - lastTime >= 0.5 then
+					local actualFPS = math.floor(frameCount / (currentTime - lastTime))
+					FPSLabel.Text = " TELEMETRY: " .. tostring(actualFPS) .. " FPS"
+					FPSLabel.TextColor3 = actualFPS >= 120 and Theme.Accent or (actualFPS >= 60 and Theme.Success or Theme.Danger)
+					frameCount = 0 
+					lastTime = currentTime
+				end
+			end
+		end)
+		
+		MakeToggle(SettingsPage, "Performance Frame Optimizer (250 FPS)", function(enabled)
+			State.FPSEnabled = enabled 
+			FPSGui.Enabled = enabled
+			if enabled then
+				if setfpscap then setfpscap(250) end
+				pcall(function() 
+					settings().Physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Disabled 
+					Workspace.StreamingEnabled = true 
+				end)
+			end
+		end)
+		
+		MakeSlider(SettingsPage, "CAMERA FOV", MIN_FOV, MAX_FOV, State.FOV, function(v) 
+			State.FOV = v 
+			local cam = Workspace.CurrentCamera 
+			if cam then cam.FieldOfView = v end 
+		end)
+
+		local ThemeCard = MakeCard(SettingsPage, 115)
+		local ThemeCardTitle = MakeText(ThemeCard, "GUI THEME COLOR CUSTOMIZER", 14, Theme.Text)
+		ThemeCardTitle.Font = Enum.Font.GothamBold
+		ThemeCardTitle.Position = UDim2.fromScale(0.05, 0.12)
+		ThemeCardTitle.Size = UDim2.fromScale(0.90, 0.22)
+
+		local ThemeCardInfo = MakeText(ThemeCard, "Select an accent style to instantly re-theme your UI elements.", 11, Theme.Muted)
+		ThemeCardInfo.Font = Enum.Font.GothamSemibold
+		ThemeCardInfo.Position = UDim2.fromScale(0.05, 0.38)
+		ThemeCardInfo.Size = UDim2.fromScale(0.90, 0.25)
+
+		local ColorOptionsContainer = Instance.new("Frame")
+		ColorOptionsContainer.BackgroundTransparency = 1
+		ColorOptionsContainer.Position = UDim2.fromScale(0.05, 0.65)
+		ColorOptionsContainer.Size = UDim2.fromScale(0.90, 0.28)
+		ColorOptionsContainer.Parent = ThemeCard
+
+		local ColorLayout = Instance.new("UIListLayout")
+		ColorLayout.FillDirection = Enum.FillDirection.Horizontal
+		ColorLayout.HorizontalAlignment = Enum.HorizontalAlignment.Left
+		ColorLayout.SortOrder = Enum.SortOrder.LayoutOrder
+		ColorLayout.Padding = UDim.new(0, 10)
+		ColorLayout.Parent = ColorOptionsContainer
+
+		local function MakeColorSwatch(colorVal)
+			local swatch = Instance.new("TextButton")
+			swatch.AutoButtonColor = false
+			swatch.BackgroundColor3 = colorVal
+			swatch.Size = UDim2.new(0, 24, 0, 24)
+			swatch.Text = ""
+			swatch.Parent = ColorOptionsContainer
+			Corner(swatch, 6)
+			Stroke(swatch, Color3.fromRGB(255, 255, 255), 0.3, 1)
+			swatch.Activated:Connect(function() UpdateThemeColor(colorVal) end)
+		end
+
+		MakeColorSwatch(Color3.fromRGB(168, 50, 255))
+		MakeColorSwatch(Color3.fromRGB(0, 220, 255))
+		MakeColorSwatch(Color3.fromRGB(0, 255, 120))
+		MakeColorSwatch(Color3.fromRGB(255, 50, 80))
+		MakeColorSwatch(Color3.fromRGB(255, 190, 0))
+
+		local SettingsCard = MakeCard(SettingsPage, 145)
+		local SettingsTitle = MakeText(SettingsCard, "AUTHENTICATED PLAYER PROFILE", 14, Theme.Text)
+		SettingsTitle.Font = Enum.Font.GothamBold 
+		SettingsTitle.Position = UDim2.fromScale(0.05, 0.08) 
+		SettingsTitle.Size = UDim2.fromScale(0.90, 0.15)
+		
+		local Avatar = Instance.new("ImageLabel")
+		Avatar.BackgroundColor3 = Theme.Card2 
+		Avatar.Position = UDim2.fromScale(0.05, 0.26) 
+		Avatar.Size = UDim2.fromOffset(56, 56) 
+		Avatar.Parent = SettingsCard
+		Corner(Avatar, 28) 
+		Stroke(Avatar, Theme.Accent, 0.2, 1, true)
+		
+		local UserLabel = MakeText(SettingsCard, "Username: " .. Player.Name, 11, Theme.Text)
+		UserLabel.Font = Enum.Font.GothamSemibold 
+		UserLabel.Position = UDim2.fromScale(0.25, 0.26) 
+		UserLabel.Size = UDim2.fromScale(0.70, 0.15)
+		
+		local DisplayLabel = MakeText(SettingsCard, "Display: " .. Player.DisplayName, 11, Theme.Muted)
+		DisplayLabel.Font = Enum.Font.GothamSemibold 
+		DisplayLabel.Position = UDim2.fromScale(0.25, 0.44) 
+		DisplayLabel.Size = UDim2.fromScale(0.70, 0.15)
+		
+		local creationTimestamp = os.time() - (Player.AccountAge * 86400)
+		local formattedCreationDate = os.date("%B %d, %Y", creationTimestamp)
+		local CreatedLabel = MakeText(SettingsCard, "Created: " .. formattedCreationDate, 11, Theme.Accent, true)
+		CreatedLabel.Font = Enum.Font.GothamBold 
+		CreatedLabel.Position = UDim2.fromScale(0.25, 0.62) 
+		CreatedLabel.Size = UDim2.fromScale(0.70, 0.15)
+		
+		local TierBadge = MakeText(SettingsCard, "● APEX LICENSED ELITE OPERATOR", Color3.fromRGB(0, 255, 170))
+		TierBadge.Font = Enum.Font.GothamBold 
+		TierBadge.TextSize = 9 
+		TierBadge.Position = UDim2.fromScale(0.25, 0.80) 
+		TierBadge.Size = UDim2.fromScale(0.70, 0.12)
+		
+		task.spawn(function() 
+			pcall(function() 
+				Avatar.Image = Players:GetUserThumbnailAsync(Player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size100x100) 
+			end) 
+		end)
+
+		RunService.Heartbeat:Connect(function(dt)
+			pcall(function()
+				if State.Destroyed then return end
+				local character = Player.Character
+				local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+				local rootPart = character and character:FindFirstChild("HumanoidRootPart")
+				
+				if State.SpeedEnabled and humanoid and rootPart and humanoid.MoveDirection.Magnitude > 0 then
+					local moveDir = humanoid.MoveDirection
+					local delta = moveDir * (State.Speed * dt)
+					rootPart.CFrame = rootPart.CFrame + Vector3.new(delta.X, 0, delta.Z)
+				end
+				
+				if State.BombTransferEnabled and rootPart and character:FindFirstChild("Bomb") then
+					for _, enemy in pairs(Players:GetPlayers()) do
+						if enemy ~= Player and enemy.Character and enemy.Character:FindFirstChild("HumanoidRootPart") and enemy.Team ~= Player.Team then
+							local dist = (rootPart.Position - enemy.Character.HumanoidRootPart.Position).Magnitude
+							if dist <= 8.5 then
+								pcall(function()
+									ReplicatedStorage.Remotes.TransferBomb:FireServer(enemy)
+								end)
+							end
+						end
+					end
+				end
+			end)
+		end)
+		
+		SendSilentAlert("Apex Pipeline", "CRYPTOGRAPHIC GATEWAY // FULLY ACTIVE")
+		print("[APEX SCRIPT]: Successfully loaded elite cryptographic gateway and core engines!")
+	else
+		StatusNotice.Text = "INVALID KEY TOKEN ENTERED"
+		StatusNotice.TextColor3 = Theme.Danger
+		VerificationBox.Text = ""
+		executeErrorShake()
+		task.wait(1.5)
+		StatusNotice.Text = "● SECURE HANDSHAKE PIPELINE ONLINE"
+		StatusNotice.TextColor3 = Theme.Success
+	end
+end)
