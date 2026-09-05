@@ -1,0 +1,2 @@
+-- This script was generated using MoonVeil 2.0.23 [https://moonveil.cc]
+if not MV_OBFUSCATED then print"im not obfuscated :>"end local function w()local g={}for e in ipairs{1,2,3,4,5}do g[#g+1]=(function()return e end)end local k=0 for i,j in pairs(g)do k=k+j()end return k end local function x()local r={}for p in ipairs{1,2,3,4,5}do r[#r+1]=(function()return p end)end local v=0 for i,u in pairs(r)do v=v+u()end return v end assert(w()==15)assert(x()==15)
