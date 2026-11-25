@@ -1,1 +1,1402 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local e={"\048\114\080\071\081\101\099\115\103\068\061\061","\086\048\057\122\122\117\065\072\100\115\057\078\047\100\069\114\109\109\090\061","\090\067\115\077\057\111\061\061","\090\048\122\075\057\048\088\077";"\100\106\114\112\047\069\105\079\122\115\069\090\084\077\114\069","\057\087\113\072\107\106\117\120\111\077\097\118\057\115\105\114","\086\101\069\102\057\106\080\051","\084\106\080\102\084\056\114\079\057\048\055\061","\121\079\050\115\057\110\070\071\121\050\061\061";"\084\106\069\079\081\106\107\061";"\081\056\069\077\047\068\061\061","\090\072\065\065\086\050\061\061","\107\107\115\090\084\067\113\072";"\047\114\071\114\121\117\080\116\047\100\107\112\121\100\071\098\084\048\050\061";"\057\106\099\088\108\069\115\052\084\056\053\047\100\117\112\052\108\109\107\061";"\048\114\080\051\057\048\099\065\084\106\069\079\081\106\107\061","\057\066\122\114\090\050\061\061","\100\106\069\051\086\106\100\120\055\117\099\115\084\106\100\073\084\106\100\113\055\111\061\061";"\103\106\070\077\099\109\108\104\047\117\099\109\107\115\084\048\047\050\061\061","\057\101\053\116\081\066\055\061","\086\072\100\077\081\056\100\077\090\048\099\065\090\101\053\115";"\086\066\099\120\047\056\112\067";"\057\048\088\120\081\066\055\061","\109\100\057\082\109\077\088\106\100\100\122\049\111\100\099\069\099\068\061\061","\057\072\114\065\084\106\122\070","\086\101\100\051\081\066\057\115","\107\117\104\118\122\109\088\098\108\117\053\075\056\117\051\105\099\069\111\061";"\047\048\105\065\047\048\088\075","\048\114\080\067\090\104\061\061";"\107\113\099\055\100\072\122\067\078\107\050\112\109\113\080\069\100\100\107\061";"\056\100\065\119\057\107\065\116\111\072\115\110","";"\084\106\080\075\084\087\088\071\081\101\086\061","\107\117\065\112\078\107\084\112\047\072\114\088\047\100\122\114\111\050\061\061","\121\050\061\061";"\107\113\069\066\100\109\105\101\057\075\057\090\081\115\117\118","\086\106\069\071\086\067\108\061","\122\089\049\088\047\057\086\088\088\114\109\103\099\112\100\068\118\066\083\120\118\088\100\069\109\082\055\061";"\086\087\088\071\081\067\111\061";"\084\100\084\066\086\117\053\111\111\104\061\061","\108\109\088\113\111\056\080\109\086\072\069\098\056\115\069\077\081\107\111\061","\086\106\122\065\081\106\104\061";"\081\049\055\061","\103\056\112\108\084\073\069\120\121\117\088\120\103\113\111\118\121\111\061\061","\103\048\065\104\111\048\113\053\099\115\050\104\081\111\061\061";"\084\056\112\104\090\056\122\052","\121\117\080\070\100\107\065\075\099\077\115\049\084\115\099\055","\081\049\117\061";"\100\101\090\066\111\101\100\051\086\077\054\072\078\056\069\057","\081\117\113\075\047\048\100\073\099\077\099\119\100\117\077\114\057\107\118\061","\090\072\080\102\090\072\069\077";"\048\114\080\054\057\056\118\061";"\081\106\100\102"}for G,l in ipairs({{305969-305968;-964839-(-964892)};{-663955+663956;585784-585767};{218209-218191;543983+-543930}})do while l[881306-881305]<l[-936963+936965]do e[l[-437510+437511]],e[l[969367-969365]],l[-674404-(-674405)],l[-550964-(-550966)]=e[l[532607+-532605]],e[l[-545098+545099]],l[525532-525531]+(-42728+42729),l[-231724+231726]-(-353822+353823)end end local function G(G)return e[G+(926382+-871511)]end do local G=table.concat local l={M=13246-13194;["\052"]=553307+-553264;O=374190+-374156,["\048"]=-863793-(-863816),j=-671382+671388,U=-151521+151579;R=-644178+644209;b=-991107-(-991122);a=43354+-43294,q=-314124-(-314160),["\056"]=989697-989675,y=35716+-35702,d=218254-218233,l=381726+-381714;w=-34020+34031;Q=865072+-865045;I=-356626-(-356661),s=825139+-825102;["\053"]=694265+-694216;Y=906989-906947,["\055"]=-331078-(-331086);["\051"]=643349-643304,["\047"]=-459755-(-459781),G=-1045464-(-1045505);S=619771-619761;["\043"]=-1030900+1030963,H=-382899+382953,g=-301215+301245;F=358726+-358686;["\057"]=-352060-(-352085);J=-693772+693834;m=-335700+335719,["\050"]=494757-494725,C=210559-210520;o=-946065+946081;z=-835905+835918;p=-229164+229221;E=796712+-796707;Z=-1013175-(-1013199),c=-633056-(-633073);A=401529+-401496;D=-323020-(-323020);W=251934-251927,i=311414-311413,B=380170-380115;P=-664881-(-664942);["\049"]=308824-308821;K=-532153-(-532204),["\054"]=-963108+963152;x=-709208-(-709258);T=375055+-375026,k=439759+-439739,V=-282169+282197;f=-353214+353260,v=371892-371836;u=-15218+15222;N=600312-600294,h=-608202+608250,n=-717289-(-717291),L=-540958+541017,r=210731+-210678;t=-652634+652681;X=581962+-581953;e=-641050-(-641088)}local v=table.insert local O=string.sub local N=math.floor local B=e local E=string.char local a=string.len local t=type for e=-484727-(-484728),#B,426928-426927 do local h=B[e]if t(h)=="\115\116\114\105\110\103"then local t=a(h)local r={}local R=510517+-510516 local o=-510925-(-510925)local d=-944525+944525 while R<=t do local e=O(h,R,R)local G=l[e]if G then o=o+G*(284195+-284131)^((-226618-(-226621))-d)d=d+(5142+-5141)if d==75624+-75620 then d=67864+-67864 local e=N(o/(720081-654545))local G=N((o%(-172116-(-237652)))/(912043+-911787))local l=o%(1009531-1009275)v(r,E(e,G,l))o=-816902-(-816902)end elseif e=="\061"then v(r,E(N(o/(-618499+684035))))if R>=t or O(h,R+(-827910+827911),R+(417729+-417728))~="\061"then v(r,E(N((o%(-727923+793459))/(-285457-(-285713)))))end break end R=R+(-592439-(-592440))end B[e]=G(r)end end end return(function(e,v,O,N,B,E,a,h,z,J,i,j,t,d,c,l,n,R,m,o,r,u,K)j,d,R,K,u,c,z,h,J,n,t,i,l,o,m,r=function(e,G)local v=o(G)local O=function(O,N)return l(e,{O;N},G,v)end return O end,function(e)local G,l=-174470-(-174471),e[-900391-(-900392)]while l do h[l],G=h[l]-(-860488-(-860489)),(-867603+867604)+G if h[l]==-211702-(-211702)then h[l],t[l]=nil,nil end l=e[G]end end,-1043260-(-1043260),function(e,G)local v=o(G)local O=function()return l(e,{},G,v)end return O end,function(e,G)local v=o(G)local O=function(O,N,B,E)return l(e,{O;N;B,E},G,v)end return O end,function(e,G)local v=o(G)local O=function(O,N,B)return l(e,{O,N,B},G,v)end return O end,function(e)h[e]=h[e]-(-927067-(-927068))if h[e]==421005+-421005 then h[e],t[e]=nil,nil end end,{},function(e,G)local v=o(G)local O=function(O)return l(e,{O},G,v)end return O end,function(e,G)local v=o(G)local O=function(O,N,B,E,a,t,h)return l(e,{O,N;B;E,a;t,h},G,v)end return O end,{},function(e,G)local v=o(G)local O=function(...)return l(e,{...},G,v)end return O end,function(l,O,N,B)local I,a,U,D,L,x,h,Z,Q,S,q,F,p,M,W,w,H,i,y,g,b,k,X,f,s,d,V,P,C,o,T,R,A,Y while l do if l<8885523-(-230324)then if l<4656531-(-835738)then if l<2938213-(-665747)then if l<-327096+1766504 then if l<896951+-91037 then if l<74707+687881 then if l<-262176-(-971732)then a=G(32301+-87147)F=u(-398663+3039382,{})l=e[a]d=G(-1015729-(-960908))h=t[N[1000080+-1000076]]o=e[d]H=G(738418+-793283)D=e[H]H={D(F)}x={v(H)}D=1040537-1040535 i=x[D]d=o(i)o=G(978077-1032922)R=h(d,o)h={R()}a=l(v(h))R=t[N[-46847-(-46852)]]l=R and-68844+16038349 or 6058380-(-267041)h=a a=R else D=not x o=o+i R=o<=d R=D and R D=o>=d D=x and D R=D or R D=63443+5494016 l=R and D R=7567822-(-765701)l=l or R end else A=not C S=S+f a=S<=k a=A and a A=S>=k A=C and A a=A or a A=32697+11031184 l=a and A a=15534041-(-543185)l=l or a end else if l<280000-(-1025846)then if l<534427-(-355661)then x=i H=D()l=R+H x=nil R=l l=5241255-792794 D=nil else H=nil A=r()q={}U=r()C=m(-617931+9584473,{U;F,w;i})L=G(-993997-(-939144))t[U]=q i=z(i)y=nil q=r()M=G(157886-212719)x=nil g=nil Y=G(93327-148165)t[q]=C C={}t[A]=C p=nil C=e[M]V={}X=t[A]s={[L]=X;[Y]=y}M=C(V,s)d=nil R=M C=n(12543851-200336,{A,U,b;F;w,q})A=z(A)U=z(U)w=z(w)x=G(106418-161248)q=z(q)b=z(b)i=e[x]d=not i l=d and 156654+12694041 or 11384225-(-943099)D=nil o=C F=z(F)end else l=true l=l and-454930+9763360 or 5387925-(-580703)end end else if l<-92949+2541787 then if l<453117+1712494 then if l<-783228+2594631 then o=t[N[-202364+202373]]R=-281305-(-281306)d=o l={}h=l o=409092-409091 i=o l=448634+263994 o=-134484+134484 x=i<o o=R-i else l=5412208-440429 end else a={}l=true t[N[-704857+704858]]=l l=e[G(-393162+338335)]end else if l<2893664-252837 then if l<2720095-159139 then l=-128069+16316632 else o=-417844+11123474 R=G(-7105-47762)a=46376+3284569 h=R^o l=a-h h=l a=G(-648961+594099)l=a/h a={l}l=e[G(95270-150136)]end else l=r()i=o t[l]=i i=l x=#h D=52341+-52340 l=x+D x=j(10590898-(-781465),{i})h[l]=x i=z(i)l=14374249-45426 end end end else if l<839727+3767001 then if l<849982+3212362 then if l<641079+3244604 then if l<-360468+4078186 then o=d(R,o)l=o and 13846007-72987 or 18793+14270788 else p=G(270800+-325644)b=e[p]p=G(-1026371-(-971510))g=b[p]l=-656655+13118193 F=g end else d=-64441+64442 i=-197025+197027 R=t[N[190489-190488]]o=R(d,i)R=-723315+723316 h=o==R l=h and 11841789-668538 or 960609+5884386 a=h end else if l<-878260+5448066 then if l<691324+3759657 then i,D=o(d,i)l=i and 395193+423531 or 671450+13684910 else R=t[N[-541126+541128]]o=-485990-(-486059)h=R*o R=-158568+21430738948707 a=h+R h=665916+35184371422916 l=a%h R=-1037444+1037445 t[N[-944629-(-944631)]]=l l=7508320-120260 h=t[N[-229344+229347]]a=h~=R end else l=254345+6489660 w=G(691043+-745904)F=e[w]a=F end end else if l<604391+4531042 then if l<362435+4601363 then if l<5530375-749377 then A=z(A)s=z(s)V=z(V)Y=nil l=-731528+1518646 M=z(M)X=z(X)L=z(L)else p=not b w=w+g H=w<=F H=p and H p=w>=F p=b and p H=p or H p=11566759-223094 l=H and p H=13995315-(-502076)l=l or H end else q=nil H=nil x=nil H=G(797036+-851880)x=G(-441543+386700)D=z(D)g=nil U=z(U)i=z(i)q=-883897-(-883898)o=z(o)i=e[x]R=z(R)R=nil b=nil d=z(d)w=z(w)x=G(-906731+851897)w=r()o=nil p=nil U=453390+-453134 d=i[x]F=z(F)i=r()D=G(-243365-(-188522))t[i]=d x=e[D]D=G(321198+-376045)b=r()d=x[D]D=e[H]F=G(106875+-161707)H=G(-412193-(-357365))p={}x=D[H]H=e[F]F=G(-671667-(-616825))g={}D=H[F]F=r()H=330391+-330391 l=589070+6386185 t[F]=H H=879647-879645 t[w]=H H={}C=U U=622425+-622424 A=U U=-389784+389784 M=A<U U=q-A t[b]=g g=-400867+400867 end else if l<4473112-(-941233)then a={}l=e[G(-316951+262094)]else l=P l=16020088-(-74183)a=T end end end end else if l<6434963-(-573068)then if l<525291+5608829 then if l<6142184-322799 then if l<5009661-(-592577)then if l<4931978-(-621320)then q=U V=q p[q]=V l=301604+6673651 q=nil else F=-320187-(-320442)R=o H=-663403+663403 l=t[N[-617547-(-617548)]]D=l(H,F)h[R]=D R=nil l=618728+93900 end else o=-386717-(-386749)g=-424380+424393 R=t[N[-1013171+1013174]]h=R%o d=t[N[960125-960121]]D=t[N[764544+-764542]]q=t[N[-477190-(-477193)]]p=q-h q=605801-605769 F=-485514-(-485516)b=p/q w=g-b H=F^w x=D/H i=d(x)d=4295434155-466859 o=i%d i=134265-134263 H=211436-211435 d=i^h R=o/d d=t[N[514327-514323]]D=R%H F=41234-40978 H=4294593821-(-373475)x=D*H i=d(x)d=t[N[-844811-(-844815)]]x=d(R)o=i+x i=510003+-444467 R=nil d=o%i l=5002500-(-968393)D=168161-102625 x=o-d i=x/D D=-711446+711702 x=d%D o=nil H=d-x D=H/F d=nil F=-927508-(-927764)h=nil H=i%F w=i-H g=951481+-951225 F=w/g i=nil w={x;D;H,F}F=nil x=nil t[N[230982-230981]]=w D=nil H=nil end else if l<-809504+6779865 then if l<5602279-(-361414)then a={R}l=e[G(513783+-568603)]else a={}l=e[G(280940-335764)]end else o=G(-296378-(-241534))R=e[o]l=e[G(767636+-822488)]o=G(-415083-(-360255))h=R[o]o=t[N[696742-696741]]R={h(o)}a={v(R)}end end else if l<997697+5752261 then if l<5855476-(-868420)then if l<5859593-(-748965)then t[N[-919281-(-919286)]]=a h=nil l=-1009638+14888296 else l=true l=l and 8318958-854817 or 238060+13067242 end else g=405934-405869 F=r()t[F]=a f=G(-358252-(-303431))w=398035-398032 l=t[D]p=G(-415088+360223)a=l(w,g)l=850334-850334 w=r()g=l l=396445+-396445 b=l t[w]=a a=e[p]q=J(-548731+10644652,{})p={a(q)}l={v(p)}a=470791-470789 p=l l=p[a]a=G(981881+-1036727)q=l l=e[a]U=t[o]k=e[f]f=k(q)k=G(-964278-(-909433))S=U(f,k)U={S()}a=l(v(U))U=r()l=-409906+1197024 t[U]=a S=t[w]a=137421-137420 k=S S=675366-675365 f=S S=-471827-(-471827)C=f<S S=a-f end else if l<6848195-(-26181)then R=t[N[7568+-7566]]o=t[N[504058+-504055]]h=R==o l=11538742-365491 a=h else U=U+A V=not M q=U<=C q=V and q V=U>=C V=M and V q=V or q V=-594526+6142880 l=q and V q=-168156+15605099 l=l or q end end end else if l<611844+7702613 then if l<-422351+7919170 then if l<36403+7367633 then if l<7568430-345473 then U=#p C=637007-637007 q=U==C l=q and 234790-(-870619)or-492377+12448215 else l=9772784-(-205390)o=168331-168226 R=t[N[-277602+277605]]h=R*o R=993567+-993310 a=h%R t[N[377406+-377403]]=a end else l=9440727-714644 end else if l<7058526-(-950851)then if l<8369841-631562 then h=G(-328530+273699)l=e[h]R=t[N[965511+-965503]]o=831281+-831281 h=l(R,o)l=-291573+1874010 else F=323968-323963 a=G(-677611+622785)l={}h=l i=628274+-628273 H=-914547+914551 x=177211+-177209 l=e[a]D=-469002-(-469005)d={i;x;D,H;F}i={l(d)}o=i[-551138-(-551141)]a=i[-784462-(-784463)]l=-430205+14759028 d=a R=i[26531-26529]end else T=t[R]l=T and-750099+12583853 or 33886+16060385 a=T end end else if l<-982018+9736637 then if l<7876388-(-849082)then if l<-830588+9515671 then l=t[N[-368900-(-368910)]]R=t[N[404200+-404189]]h[l]=R l=t[N[366065+-366053]]R={l(h)}l=e[G(328388-383228)]a={v(R)}else x=i H=D()x=nil D=nil l=R+H R=l l=758263+10426404 end else l=true l=l and 15575423-(-958077)or-1047928+6459782 end else if l<9771659-877262 then l=477977-(-932837)else h=t[N[808569-808568]]a=#h h=-7623-(-7623)l=a==h l=l and 515186+4051133 or-930166+6901059 end end end end end else if l<12366843-(-434169)then if l<-823594+12211923 then if l<-247987+11261631 then if l<287479+9300470 then if l<8384864-(-1007087)then if l<794668+8512159 then a=G(-145045+90214)h=G(-45824+-9012)l=e[a]a=l(h)l=e[G(775820-830668)]a={}else h=G(222403-277262)a=G(982529-1037393)l=e[a]a=e[h]h=G(-883954-(-829095))e[h]=l h=G(54713+-109577)e[h]=a h=t[N[1041211+-1041210]]l=1015292-(-395522)R=h()end else o=G(694502-749372)l=539982+-539982 R=l l=e[o]x={l(h)}d=x[367649+-367647]i=x[103574+-103571]o=x[-780789-(-780790)]l=10914250-(-270417)end else if l<409011+9680572 then if l<10423524-434751 then R=t[N[365296-365293]]o=-1035904-(-1035905)h=R~=o l=h and 278090+5449087 or-86498+7474558 else l={}D=-866014+866017 h=l a=G(-535315-(-480489))i=-69229+69230 x=-929910-(-929912)F=381105-381100 l=e[a]H=-539109+539113 d={i;x;D;H;F}i={l(d)}a=i[-90955-(-90956)]R=i[-864585+864587]d=a l=-556783+4246328 o=i[-920848+920851]end else R=G(749911-804734)a=-715984+12426864 o=2815835-334254 h=R^o l=a-h a=G(-755577-(-700736))h=l l=a/h a={l}l=e[G(609914+-664774)]end end else if l<78971+11099236 then if l<-739460+11898183 then if l<964+11077809 then A=r()s=-37003+37258 M=G(-879054+824211)t[A]=S V=1035020+-1034920 a=e[M]M=G(-768913-(-714066))y=G(760761-815582)l=a[M]X=-570127+570128 M=-921663+921664 a=l(M,V)M=r()t[M]=a l=t[D]V=-245049-(-245049)I=-678344+678344 a=l(V,s)V=r()s=-853490-(-853491)t[V]=a l=t[D]L=t[M]Y=-953880+953882 a=l(s,L)s=r()t[s]=a a=t[D]L=a(X,Y)Y=G(-327847+273028)a=-2992-(-2993)l=L==a a=G(387336+-442181)L=r()t[L]=l l=G(-374734+319897)P=e[y]Q=731904+-721904 Z=t[D]W={Z(I,Q)}l=q[l]y=P(v(W))P=G(-219411-(-164592))T=y..P X=Y..T Y=G(810531-865396)l=l(q,a,X)X=r()t[X]=l T=u(3858524-(-87204),{D,A,w,o,R;U;L,X;M,s;V,F})a=e[Y]Y={a(T)}l={v(Y)}Y=l l=t[L]l=l and 8982845-836937 or-190823+15060709 else l=1046703+7679380 end else l=a and-466856-(-982152)or 14431267-552609 end else if l<1014254+10355082 then if l<11784796-518388 then i,D=o(d,i)l=i and 9028863-303956 or 789454+5075137 else f=G(102203-157035)H=w k=e[f]f=G(774470-829321)S=k[f]l=-841939+5801640 k=S(h,H)S=t[N[-698675+698681]]f=S()U=k+f q=U+x f=-230967+230968 U=782588-782332 p=q%U x=p U=o[R]k=x+f S=d[k]q=U..S o[R]=q H=nil end else l=t[N[97672-97671]]a={l}l=e[G(614851-669700)]end end end else if l<614694+11715076 then if l<10749835-(-1043307)then if l<-144528+11899355 then if l<-988668+12510291 then l=-152941+14355531 y=452698+-452697 P=Y[y]T=P else l=13250126-172715 k=g==b S=k end else D=G(-23398-31445)b=G(-628448+573604)H=G(711803-766647)x=a a=e[D]D=G(806639+-861486)l=a[D]D=r()t[D]=l a=e[H]H=G(-5139+-49717)l=a[H]w=l g=e[b]F=g H=l l=g and 2818393-(-1027048)or 813512+11648026 end else if l<11764822-(-375432)then if l<11170204-(-734711)then P=l W=-982479-(-982480)Z=Y[W]W=false y=Z==W l=y and 662367+14347934 or 871700+4555098 T=y else U=-178924-(-178925)C=#p q=d(U,C)U=x(p,q)C=t[b]V=-651533+651534 M=U-V A=D(M)q=nil C[U]=A U=nil l=-1044751+8062068 end else d=u(7180928-(-579124),{})i=c(913720+9162612,{})D=G(89355+-144205)R=nil o=nil x=e[D]w=-98727-(-98742)F=d()H=F==w w=-796082+796097 D=x(H)D=G(232337+-287187)x=e[D]F=i()a={}i=nil l=e[G(-1004747+949929)]H=F==w D=x(H)d=nil end end else if l<699775+11946948 then if l<12733599-269671 then if l<11500177-(-900138)then l=t[N[257199+-257198]]o=l h=O[-480502+480503]R=O[441370+-441368]l=o[R]l=l and 1960449-(-581104)or 13249578-565640 else a=F l=w l=F and-683146+7427151 or 3828188-(-743590)end else l=true l=14198585-893283 end else if l<12094410-(-614551)then l={}t[N[-23158-(-23160)]]=l a=t[N[-746164+746167]]D=-53035+53290 l=5126142-166441 d=a w=-105602+105603 i=35184372520662-431830 H=G(614347+-669179)a=R%i t[N[-178623-(-178627)]]=a x=R%D D=870203+-870201 g=w i=x+D t[N[628914-628909]]=i D=e[H]H=G(374744-429598)x=D[H]D=x(h)w=-118810-(-118810)F=D H=-405253+405254 x=G(186119-240941)o[R]=x x=360271-360036 b=g<w w=H-g else C=G(-668591-(-613727))l=e[C]C=G(-614804+559945)e[C]=l l=11143843-63177 end end end end else if l<-457063+14811550 then if l<12983328-(-583073)then if l<13726270-559178 then if l<12092187-(-1044365)then if l<12314426-(-624034)then i=G(151739-206607)F=543245767974-971818 d=e[i]l=230212+12097112 H=G(685342-740211)D=o(H,F)x=R[D]i=d(x)else t[R]=S l=t[R]l=l and 222063+1635591 or 262452+12202396 end else R=r()h=O l=true t[R]=l o=G(677684+-732516)a=e[o]o=G(-105873-(-51044))i=r()l=a[o]o=r()d=r()t[o]=l l=m(35586+9220315,{})t[d]=l H=K(826668+1417615,{i})l=false D=G(697142+-752007)t[i]=l x=e[D]D=x(H)a=D l=D and-270165+13828866 or-240208+12001764 end else if l<328537+13065868 then if l<12422977-(-845498)then l=t[N[-571569-(-571570)]]a={l}l=e[G(-165155+110297)]else l=j(-215814+9023151,{d})k={l()}a={v(k)}l=e[G(-641723-(-586884))]end else x=t[i]a=x l=12466609-705053 end end else if l<13255086-(-1028750)then if l<14458774-426097 then if l<13786074-(-77637)then D=33959+-33958 i=o l=r()t[l]=i i=l x=#h l=x+D x=J(780425+12389335,{i})h[l]=x l=851158+2838387 i=z(i)else l=t[N[-666256-(-666263)]]l=l and 8090108-543703 or 2331209-748772 end else t[R]=T I=642662+-642661 W=t[s]Z=W+I y=Y[Z]P=g+y y=-498751-(-499007)l=P%y g=l l=3865230-(-760672)Z=t[V]y=b+Z Z=-395065-(-395321)P=y%Z b=P end else if l<-108179+14432374 then l=-172713-(-172713)o=G(-1043524-(-988654))R=l l=e[o]x={l(h)}l=5370660-922199 d=x[280369-280367]i=x[-327518-(-327521)]o=x[-934006+934007]else o=d(R,o)l=o and 800371+2510502 or 426859+8990206 end end end else if l<15949343-96996 then if l<461894+14272261 then if l<15018907-514455 then if l<14146039-(-274693)then l=e[G(802722-857557)]a={R}else l=58589+16129974 D=nil x=nil d=nil end else f=G(-438166-(-383345))l=e[f]A=G(-378935-(-324076))C=e[A]f=l(C)l=G(-550133-(-495269))e[l]=f l=308350+10772316 end else if l<14376855-(-947155)then if l<15916901-1006906 then P=t[R]T=P l=P and-575649+12070623 or-437379+14639969 else W=-894920+894922 Z=Y[W]W=t[X]l=6185359-758561 y=Z==W T=y end else U=#p C=-597759+597759 l=12396341-440503 q=U==C end end else if l<16226637-104124 then if l<972460+15115377 then if l<16413003-424090 then l=6613864-288443 o=t[N[-1019994+1020000]]R=o==h a=R else k=t[R]l=k and 12109201-356981 or 13374359-296948 S=k end else t[R]=a l=275051+4350851 end else if l<19648+16449558 then a={R}l=e[G(-746313-(-691450))]else C=11421-11415 f=322016-322015 l=t[D]k=l(f,C)l=G(-16316+-38548)e[l]=k C=G(-731796+676932)f=e[C]C=-209087+209089 l=f>C l=l and 15353797-848115 or-514613+13308602 end end end end end end end l=#B return v(a)end,function(e)for G=-568713-(-568714),#e,-397046-(-397047)do h[e[G]]=h[e[G]]+(-948875+948876)end if O then local l=O(true)local v=B(l)v[G(-647689+592836)],v[G(734999-789824)],v[G(99670+-154525)]=e,d,function()return-442925+3581823 end return l else return N({},{[G(-214839+160014)]=d;[G(-310251-(-255398))]=e;[G(760661-815516)]=function()return 3579364-440466 end})end end,function(e,G)local v=o(G)local O=function(O,N,B,E,a)return l(e,{O,N;B,E,a},G,v)end return O end,function()R=(456715-456714)+R h[R]=545231+-545230 return R end return(i(-415673+13564334,{}))(v(a))end)(getfenv and getfenv()or _ENV,unpack or table[G(-493291+438430)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+Local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+
+local introGui = Instance.new("ScreenGui", CoreGui)
+introGui.Name = "MOH_Intro"
+introGui.IgnoreGuiInset = true
+introGui.ResetOnSpawn = false
+introGui.DisplayOrder = 999999
+
+local function tw(obj, props, t, style, dir)
+    local tween = TweenService:Create(obj, TweenInfo.new(t or 0.5, style or Enum.EasingStyle.Quart, dir or Enum.EasingDirection.Out), props)
+    tween:Play()
+    return tween
+end
+
+local Bg = Instance.new("Frame", introGui)
+Bg.Size = UDim2.new(1, 0, 1, 0)
+Bg.Position = UDim2.new(0, 0, 0, 0)
+Bg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Bg.BackgroundTransparency = 0
+Bg.BorderSizePixel = 0
+Bg.ZIndex = 1
+Bg.ClipsDescendants = true
+
+local corners = {{0, 4, 0, 4, false, false}, {1, -44, 0, 4, true, false}, {0, 4, 1, -6, false, true}, {1, -44, 1, -6, true, true}}
+for _, c in ipairs(corners) do
+    local h = Instance.new("Frame", Bg)
+    h.Size = UDim2.new(0, 40, 0, 2)
+    h.Position = UDim2.new(c[1], c[2], c[3], c[4])
+    h.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+    h.BackgroundTransparency = 0.25
+    h.BorderSizePixel = 0
+    h.ZIndex = 2
+    local v = Instance.new("Frame", Bg)
+    v.Size = UDim2.new(0, 2, 0, 40)
+    v.Position = UDim2.new(c[1], c[2], c[3], c[4] + (c[6] and -38 or 2))
+    v.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+    v.BackgroundTransparency = 0.25
+    v.BorderSizePixel = 0
+    v.ZIndex = 2
+end
+
+local function thinLine(yScale, yOffset)
+    local l = Instance.new("Frame", Bg)
+    l.Size = UDim2.new(1, 0, 0, 1)
+    l.Position = UDim2.new(0, 0, yScale, yOffset)
+    l.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
+    l.BackgroundTransparency = 0.55
+    l.BorderSizePixel = 0
+    l.ZIndex = 2
+end
+thinLine(0, 28)
+thinLine(1, -29)
+
+local dotPositions = {{0.12, 0.18}, {0.88, 0.22}, {0.08, 0.72}, {0.92, 0.68}, {0.25, 0.90}, {0.75, 0.88}, {0.18, 0.45}, {0.82, 0.55}, {0.40, 0.08}, {0.60, 0.92}}
+for _, d in ipairs(dotPositions) do
+    local dot = Instance.new("Frame", Bg)
+    dot.Size = UDim2.new(0, 3, 0, 3)
+    dot.Position = UDim2.new(d[1], -1, d[2], -1)
+    dot.BackgroundColor3 = Color3.fromRGB(160, 0, 0)
+    dot.BackgroundTransparency = 0.5
+    dot.BorderSizePixel = 0
+    dot.ZIndex = 2
+    Instance.new("UICorner", dot).CornerRadius = UDim.new(1, 0)
+end
+
+for i = 1, 3 do
+    local vl = Instance.new("Frame", Bg)
+    vl.Size = UDim2.new(0, 1, 1, 0)
+    vl.Position = UDim2.new(i * 0.25, 0, 0, 0)
+    vl.BackgroundColor3 = Color3.fromRGB(40, 0, 0)
+    vl.BackgroundTransparency = 0.7
+    vl.BorderSizePixel = 0
+    vl.ZIndex = 1
+    local hl = Instance.new("Frame", Bg)
+    hl.Size = UDim2.new(1, 0, 0, 1)
+    hl.Position = UDim2.new(0, 0, i * 0.25, 0)
+    hl.BackgroundColor3 = Color3.fromRGB(40, 0, 0)
+    hl.BackgroundTransparency = 0.7
+    hl.BorderSizePixel = 0
+    hl.ZIndex = 1
+end
+
+local RedGlow = Instance.new("ImageLabel", Bg)
+RedGlow.Size = UDim2.new(0, 600, 0, 600)
+RedGlow.Position = UDim2.new(0.5, -300, 0.5, -300)
+RedGlow.BackgroundTransparency = 1
+RedGlow.Image = "rbxasset://textures/ui/Scroll/scroll-middle.png"
+RedGlow.ImageColor3 = Color3.fromRGB(160, 0, 0)
+RedGlow.ImageTransparency = 1
+RedGlow.ZIndex = 2
+
+local HMShadow = Instance.new("TextLabel", Bg)
+HMShadow.Size = UDim2.new(0, 440, 0, 120)
+HMShadow.Position = UDim2.new(0.5, -218, 0.5, -56)
+HMShadow.BackgroundTransparency = 1
+HMShadow.Text = "MOH"
+HMShadow.TextColor3 = Color3.fromRGB(120, 0, 0)
+HMShadow.TextTransparency = 1
+HMShadow.TextSize = 92
+HMShadow.Font = Enum.Font.GothamBlack
+HMShadow.ZIndex = 3
+
+local HMLabel = Instance.new("TextLabel", Bg)
+HMLabel.Size = UDim2.new(0, 440, 0, 120)
+HMLabel.Position = UDim2.new(0.5, -220, 0.5, -58)
+HMLabel.BackgroundTransparency = 1
+HMLabel.Text = "MOH"
+HMLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+HMLabel.TextTransparency = 1
+HMLabel.TextSize = 90
+HMLabel.Font = Enum.Font.GothamBlack
+HMLabel.ZIndex = 4
+
+local Line = Instance.new("Frame", Bg)
+Line.Size = UDim2.new(0, 0, 0, 2)
+Line.Position = UDim2.new(0.5, 0, 0.5, 56)
+Line.AnchorPoint = Vector2.new(0.5, 0.5)
+Line.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Line.BackgroundTransparency = 1
+Line.BorderSizePixel = 0
+Line.ZIndex = 4
+
+local EyeShadow = Instance.new("Frame", Bg)
+EyeShadow.Size = UDim2.new(0, 230, 0, 230)
+EyeShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+EyeShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+EyeShadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EyeShadow.BackgroundTransparency = 1
+EyeShadow.BorderSizePixel = 0
+EyeShadow.ZIndex = 3
+Instance.new("UICorner", EyeShadow).CornerRadius = UDim.new(1, 0)
+local shadowStroke = Instance.new("UIStroke", EyeShadow)
+shadowStroke.Color = Color3.fromRGB(50, 50, 50)
+shadowStroke.Thickness = 14
+shadowStroke.Transparency = 1
+
+local Eye = Instance.new("ImageLabel", Bg)
+Eye.Size = UDim2.new(0, 210, 0, 210)
+Eye.Position = UDim2.new(0.5, 0, 0.5, 0)
+Eye.AnchorPoint = Vector2.new(0.5, 0.5)
+Eye.BackgroundTransparency = 1
+Eye.Image = "rbxthumb://type=Asset&id=7292869465&w=420&h=420"
+Eye.ImageTransparency = 1
+Eye.ScaleType = Enum.ScaleType.Fit
+Eye.ZIndex = 4
+
+local TopLid = Instance.new("Frame", Bg)
+TopLid.Size = UDim2.new(1, 0, 0, 200)
+TopLid.Position = UDim2.new(0.5, 0, 0, -210)
+TopLid.AnchorPoint = Vector2.new(0.5, 1.0)
+TopLid.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopLid.BackgroundTransparency = 0
+TopLid.BorderSizePixel = 0
+TopLid.ZIndex = 6
+Instance.new("UICorner", TopLid).CornerRadius = UDim.new(0, 22)
+
+local BotLid = Instance.new("Frame", Bg)
+BotLid.Size = UDim2.new(1, 0, 0, 200)
+BotLid.Position = UDim2.new(0.5, 0, 1, 210)
+BotLid.AnchorPoint = Vector2.new(0.5, 0.0)
+BotLid.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BotLid.BackgroundTransparency = 0
+BotLid.BorderSizePixel = 0
+BotLid.ZIndex = 6
+Instance.new("UICorner", BotLid).CornerRadius = UDim.new(0, 22)
+
+local DevLabel = Instance.new("TextLabel", Bg)
+DevLabel.Size = UDim2.new(0, 240, 0, 26)
+DevLabel.Position = UDim2.new(0.5, 0, 0.5, -128)
+DevLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+DevLabel.BackgroundTransparency = 1
+DevLabel.Text = "D E V   |   M O H"
+DevLabel.TextColor3 = Color3.fromRGB(210, 210, 210)
+DevLabel.TextTransparency = 1
+DevLabel.TextSize = 13
+DevLabel.Font = Enum.Font.GothamBold
+DevLabel.ZIndex = 8
+
+local DevLine = Instance.new("Frame", Bg)
+DevLine.Size = UDim2.new(0, 0, 0, 1)
+DevLine.Position = UDim2.new(0.5, 0, 0.5, -115)
+DevLine.AnchorPoint = Vector2.new(0.5, 0.5)
+DevLine.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+DevLine.BackgroundTransparency = 0.3
+DevLine.BorderSizePixel = 0
+DevLine.ZIndex = 8
+Instance.new("UICorner", DevLine).CornerRadius = UDim.new(1, 0)
+
+local function newSound(id)
+    local s = Instance.new("Sound", introGui)
+    s.SoundId = "rbxassetid://" .. id
+    s.Volume = 1
+    return s
+end
+
+local S0 = newSound("100857951036934")
+local S1 = newSound("108120517724039")
+local S2 = newSound("134103109747331")
+local S3 = newSound("102742504905872")
+
+local Skip = Instance.new("TextButton", introGui)
+Skip.Size = UDim2.new(0, 85, 0, 28)
+Skip.Position = UDim2.new(1, -100, 1, -42)
+Skip.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Skip.BackgroundTransparency = 0.4
+Skip.Text = "SKIP  >"
+Skip.TextColor3 = Color3.fromRGB(200, 200, 200)
+Skip.TextTransparency = 1
+Skip.TextSize = 12
+Skip.Font = Enum.Font.GothamBold
+Skip.BorderSizePixel = 0
+Skip.ZIndex = 20
+Instance.new("UICorner", Skip).CornerRadius = UDim.new(0, 6)
+local skipStr = Instance.new("UIStroke", Skip)
+skipStr.Color = Color3.fromRGB(180, 0, 0)
+skipStr.Thickness = 1
+skipStr.Transparency = 1
+
+local finished = false
+local FADE = 0.55
+
+local function endIntro()
+    if finished then return end
+    finished = true
+    S0:Stop()
+    S1:Stop()
+    S2:Stop()
+    S3:Stop()
+    for _, v in ipairs(introGui:GetDescendants()) do
+        pcall(function()
+            if v:IsA("TextButton") or v:IsA("TextLabel") then
+                tw(v, {TextTransparency = 1, BackgroundTransparency = 1}, FADE, Enum.EasingStyle.Linear)
+            elseif v:IsA("ImageLabel") then
+                tw(v, {ImageTransparency = 1, BackgroundTransparency = 1}, FADE, Enum.EasingStyle.Linear)
+            elseif v:IsA("Frame") then
+                tw(v, {BackgroundTransparency = 1}, FADE, Enum.EasingStyle.Linear)
+            elseif v:IsA("UIStroke") then
+                tw(v, {Transparency = 1}, FADE, Enum.EasingStyle.Linear)
+            end
+        end)
+    end
+    task.wait(FADE + 0.05)
+    introGui:Destroy()
+end
+
+Skip.MouseButton1Click:Connect(endIntro)
+
+task.spawn(function()
+    S0:Play()
+    task.wait(0.4)
+    tw(Skip, {TextTransparency = 0.3}, 1.0)
+    tw(skipStr, {Transparency = 0.3}, 1.0)
+    task.wait(0.1)
+    tw(HMLabel, {TextTransparency = 0}, 1.4, Enum.EasingStyle.Quart)
+    tw(HMShadow, {TextTransparency = 0.3}, 1.4, Enum.EasingStyle.Quart)
+    tw(Line, {Size = UDim2.new(0, 110, 0, 2), BackgroundTransparency = 0.2}, 0.9, Enum.EasingStyle.Quart)
+    tw(RedGlow, {ImageTransparency = 0.92}, 2.0)
+    task.wait(2.8)
+    if finished then return end
+    tw(HMLabel, {TextTransparency = 1}, 0.9, Enum.EasingStyle.Quart)
+    tw(HMShadow, {TextTransparency = 1}, 0.9)
+    tw(Line, {Size = UDim2.new(0, 0, 0, 2), BackgroundTransparency = 1}, 0.6, Enum.EasingStyle.Quart)
+    task.wait(0.7)
+    if finished then return end
+    TopLid.Position = UDim2.new(0.5, 0, 0.5, 0)
+    BotLid.Position = UDim2.new(0.5, 0, 0.5, 0)
+    Eye.ImageTransparency = 0
+    if finished then return end
+    S1:Play()
+    task.spawn(function()
+        local rot = 0
+        while not finished do
+            rot = rot + 360
+            tw(Eye, {Rotation = rot}, 3.5, Enum.EasingStyle.Linear)
+            task.wait(3.5)
+        end
+    end)
+    tw(TopLid, {Position = UDim2.new(0.5, 0, 0.5, -112)}, 1.8, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+    tw(BotLid, {Position = UDim2.new(0.5, 0, 0.5, 112)}, 1.8, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+    tw(EyeShadow, {BackgroundTransparency = 0.72}, 2.0, Enum.EasingStyle.Quart)
+    tw(shadowStroke, {Transparency = 0.50}, 2.0, Enum.EasingStyle.Quart)
+    task.wait(1.4)
+    if finished then return end
+    tw(DevLabel, {TextTransparency = 0.08}, 1.0, Enum.EasingStyle.Quart)
+    tw(DevLine, {Size = UDim2.new(0, 130, 0, 1)}, 0.9, Enum.EasingStyle.Quart)
+    tw(RedGlow, {ImageTransparency = 0.88}, 1.8)
+    task.wait(0.4)
+    if finished then return end
+    S2:Play()
+    task.wait(0.15)
+    if finished then return end
+    S3:Play()
+    task.wait(3.5)
+    if finished then return end
+    endIntro()
+end)
+
+pcall(function()
+    Ghost:KillTimeBombScanners()
+    Ghost:NetworkMask()
+    Ghost:AntiKickShield()
+    Ghost:PlayerGuiShield()
+    Ghost:AntiTeleportDetect()
+end)
+
+-- MOH HUB (Advanced Anti-Detection & Fully Synced Hitbox System - Amoled Edition)
+
+-- [ANTI-DETECTION & CORE SECURITY HARDENING]
+pcall(function()
+    local coreGui = game:GetService("CoreGui")
+    
+    local oldNamecall
+    oldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
+        local method = getnamecallmethod()
+        local caller = getcallingscript()
+        
+        if (method == "Kick" or method == "kick" or method == "Ban" or method == "ban") and self == game.Players.LocalPlayer then
+            return nil
+        end
+        
+        if method == "FireServer" or method == "InvokeServer" then
+            local args = {...}
+        end
+        
+        return oldNamecall(self, ...)
+    end)
+
+    if setreadonly then
+        setreadonly(getrawmetatable(game), true)
+    end
+end)
+
+pcall(function()
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    if LocalPlayer then
+        LocalPlayer.OnTeleport:Connect(function(teleportState)
+            if teleportState == Enum.TeleportState.Failed then
+            end
+        end)
+    end
+end)
+
+-- Robust Anti-Cheat Bypass Hook Wrapper
+pcall(function()
+    local mt = getrawmetatable(game)
+    setreadonly(mt, false)
+    local oldIndex = mt.__index
+    mt.__index = newcclosure(function(self, k)
+        if k == "WalkSpeed" or k == "JumpPower" or k == "HipHeight" then
+            local char = game.Players.LocalPlayer.Character
+            if char and self == char:FindFirstChildOfClass("Humanoid") then
+                return 16
+            end
+        end
+        return oldIndex(self, k)
+    end)
+    setreadonly(mt, true)
+end)
+
+local success, Fluent = pcall(function()
+    return loadstring(game:HttpGet("https://github.com/StyearX/Fluent-Modded/releases/download/Fluent/FluentPro"))()
+end)
+
+if not success or not Fluent then
+    warn("Failed to load Modded UI Library!")
+    return
+end
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local Lighting = game:GetService("Lighting")
+local Stats = game:GetService("Stats")
+local Camera = Workspace.CurrentCamera
+local LocalPlayer = Players.LocalPlayer
+
+-- Valid Keys Database
+local VALID_KEYS = {
+    [""] = true
+}
+
+local loadMainHub
+
+local function hasValidSession()
+    if getgenv().MohHubExpiry and os.time() < getgenv().MohHubExpiry then
+        return true
+    end
+    return false
+end
+
+local Window = Fluent:CreateWindow({
+    Title = "MOH HUB",
+    SubTitle = hasValidSession() and "[Key verification Successful]" or "Authentication Required",
+    TabWidth = 135,
+    Size = UDim2.fromOffset(500, 380),
+    Acrylic = false,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl,
+    Search = hasValidSession(),
+})
+
+-- Pure Amoled Color Theme Settings
+Fluent.ColorTheme = {
+    Main = Color3.fromRGB(0, 0, 0),          -- Pitch Black Background
+    Accent = Color3.fromRGB(255, 105, 180),  -- Pink Accent
+    Outline = Color3.fromRGB(25, 25, 25),    -- Deep Minimal Outline
+}
+
+Fluent:Notify({
+    Title = "MOH HUB Security Active",
+    Content = "Anti-detection hooks and environment locked...",
+    Duration = 3
+})
+
+if hasValidSession() then
+    task.spawn(function()
+        loadMainHub()
+    end)
+else
+    local KeyTab = Window:AddTab({ Title = "Key", Icon = "solar/key-bold" })
+
+    KeyTab:AddParagraph({
+        Title = "Secure Key System",
+        Content = "Please enter your access key to unlock MOH HUB features. Valid for 1 day."
+    })
+
+    local typedKey = ""
+
+    KeyTab:AddInput("KeyTextBox", {
+        Title = "License Key",
+        Default = "",
+        Placeholder = "Paste key here...",
+        Numeric = false,
+        Finished = false,
+        Callback = function(Value)
+            typedKey = Value
+        end
+    })
+
+    KeyTab:AddButton({
+        Title = "Verify Key",
+        Description = "Checks key validity, sets 1-day expiration, and opens main hub.",
+        Callback = function()
+            if typedKey == "" and Fluent.Options.KeyTextBox then
+                typedKey = Fluent.Options.KeyTextBox.Value or ""
+            end
+            
+            if VALID_KEYS[typedKey] then
+                getgenv().MohHubExpiry = os.time() + 86400
+                
+                pcall(function()
+                    Window.SubTitle = "[Key verification Successful]"
+                    Window.Search = true
+                end)
+                
+                Fluent:Notify({
+                    Title = "[Key Success]",
+                    Content = "Key verified successfully! Loading main menu...",
+                    Duration = 3
+                })
+                
+                loadMainHub()
+                
+                pcall(function()
+                    if KeyTab then
+                        if KeyTab.Container then KeyTab.Container:Destroy() end
+                        if KeyTab.Button then KeyTab.Button:Destroy() end
+                        if typeof(KeyTab.Destroy) == "function" then KeyTab:Destroy() end
+                    end
+                end)
+            else
+                Fluent:Notify({
+                    Title = "Access Denied",
+                    Content = "The key you entered is invalid.",
+                    Duration = 4
+                })
+            end
+        end
+    })
+
+    KeyTab:AddButton({
+        Title = "Get Key Link",
+        Description = "Copies the Discord link to your clipboard.",
+        Callback = function()
+            pcall(function() setclipboard("https://discord.gg/kmwTpgfssQ") end)
+            Fluent:Notify({
+                Title = "Clipboard",
+                Content = "Discord link copied to clipboard: https://discord.gg/kmwTpgfssQ",
+                Duration = 5
+            })
+        end
+    })
+
+    Window:SelectTab(1)
+end
+
+loadMainHub = function()
+    Fluent:Notify({
+        Title = "MOH HUB Loaded",
+        Content = "Welcome to MOH HUB! Amoled security protocols online.",
+        Duration = 4
+    })
+
+    pcall(function()
+        Window.SubTitle = "[Key verification Successful]"
+        Window.Search = true
+    end)
+
+    -- ==================== ZEROUX / CUSTOM FLOATING IMAGE BUTTON (FIXED) ====================
+    pcall(function()
+        local CoreGui = game:GetService("CoreGui")
+        local FloatingGui = Instance.new("ScreenGui")
+        FloatingGui.Name = "MohHubFloatingButton"
+        FloatingGui.ResetOnSpawn = false
+        FloatingGui.DisplayOrder = 999999
+        
+        pcall(function()
+            FloatingGui.Parent = CoreGui
+        end)
+        if not FloatingGui.Parent then
+            FloatingGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
+        end
+
+        local ToggleButton = Instance.new("ImageButton")
+        ToggleButton.Name = "MohCircle"
+        ToggleButton.Size = UDim2.new(0, 42, 0, 42)
+        ToggleButton.Position = UDim2.new(0, 30, 0, 150)
+        ToggleButton.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+        ToggleButton.BackgroundTransparency = 0.2
+        ToggleButton.ClipsDescendants = true
+        
+        ToggleButton.Image = "rbxassetid://135799434827889"
+        ToggleButton.ScaleType = Enum.ScaleType.Crop
+        
+        ToggleButton.Draggable = true
+        ToggleButton.Active = true
+        ToggleButton.Parent = FloatingGui
+
+        local UICorner = Instance.new("UICorner")
+        UICorner.CornerRadius = UDim.new(1, 0)
+        UICorner.Parent = ToggleButton
+
+        local UIStroke = Instance.new("UIStroke")
+        UIStroke.Color = Color3.fromRGB(255, 0, 0)
+        UIStroke.Thickness = 2
+        UIStroke.Parent = ToggleButton
+
+        local windowVisible = true
+        ToggleButton.MouseButton1Click:Connect(function()
+            windowVisible = not windowVisible
+            pcall(function()
+                for _, gui in ipairs(CoreGui:GetChildren()) do
+                    if gui:IsA("ScreenGui") and gui ~= FloatingGui then
+                        for _, desc in ipairs(gui:GetDescendants()) do
+                            if (desc:IsA("TextLabel") or desc:IsA("TextButton")) and desc.Text == "MOH HUB" then
+                                gui.Enabled = windowVisible
+                                break
+                            end
+                        end
+                    end
+                end
+                for _, gui in ipairs(LocalPlayer.PlayerGui:GetChildren()) do
+                    if gui:IsA("ScreenGui") and gui ~= FloatingGui then
+                        for _, desc in ipairs(gui:GetDescendants()) do
+                            if (desc:IsA("TextLabel") or desc:IsA("TextButton")) and desc.Text == "MOH HUB" then
+                                gui.Enabled = windowVisible
+                                break
+                            end
+                        end
+                    end
+                end
+            end)
+        end)
+    end)
+
+    local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+    local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+    local Tabs = {
+        Home = Window:AddTab({ Title = "Home", Icon = "solar/home-bold" }),
+        Combat = Window:AddTab({ Title = "Combat", Icon = "solar/shield-bold" }),
+        Visual = Window:AddTab({ Title = "Visual", Icon = "solar/eye-bold" }),
+        Settings = Window:AddTab({ Title = "Settings", Icon = "solar/settings-bold" })
+    }
+
+    local Options = Fluent.Options
+
+    -- ==================== HOME TAB ====================
+    Tabs.Home:AddSection("Information")
+    Tabs.Home:AddParagraph({
+        Title = "Welcome, " .. LocalPlayer.DisplayName .. "!",
+        Content = "Thank you for executing MOH HUB.\nUsername: @" .. LocalPlayer.Name .. "\nUser ID: " .. LocalPlayer.UserId
+    })
+
+    Tabs.Home:AddSection("Biggest Update")
+    Tabs.Home:AddParagraph({
+        Title = "Changelog & Improvements",
+        Content = "• Reworked Tpwalk to feel natural and smooth like actual walking!\n• Added custom Crosshair customization to Settings tab.\n• Updated movement assistance to 'Assist (Bomb needed)'."
+    })
+
+    Tabs.Home:AddSection("Live Telemetry & Diagnostics")
+    local HomePingLabel = Tabs.Home:AddParagraph({
+        Title = "Network Performance",
+        Content = "Ping: Calculating...\nMemory: Calculating..."
+    })
+
+    task.spawn(function()
+        while task.wait(1) do
+            pcall(function()
+                local pingVal = math.floor(LocalPlayer:GetNetworkPing() * 1000 + 0.5)
+                local memVal = math.floor(Stats:GetTotalMemoryUsageMb())
+                HomePingLabel:SetDesc("Ping: " .. pingVal .. " ms\nMemory: " .. memVal .. " MB")
+            end)
+        end
+    end)
+
+    Tabs.Home:AddSection("Community")
+    Tabs.Home:AddButton({
+        Title = "Copy Discord Link",
+        Description = "Join our community server!",
+        Callback = function()
+            pcall(function() setclipboard("https://discord.gg/kmwTpgfssQ") end)
+            Fluent:Notify({Title = "Discord Link", Content = "Copied to clipboard!", Duration = 5})
+        end
+    })
+
+    -- ==================== COMBAT TAB ====================
+    Tabs.Combat:AddSection("Movement & Physics")
+
+    local TpWalkEnabled = false
+    local TpWalkSpeedMultiplier = 1.2
+
+    Tabs.Combat:AddDropdown("TpWalkSpeedUnified", {
+        Title = "Tpwalk Speed Level",
+        Values = {
+            "1 - Smooth Slow (1.1x)",
+            "2 - Normal Walk (1.2x)",
+            "3 - Medium Walk (1.35x)",
+            "4 - Fast Walk (1.5x)",
+            "5 - Jogging (1.75x)",
+            "6 - Fast Jogging (2.0x)",
+            "7 - Running (2.3x)",
+            "8 - Sprinting (2.6x)"
+        },
+        Default = "2 - Normal Walk (1.2x)",
+        Callback = function(Value)
+            local speedMap = {
+                ["1 - Smooth Slow (1.1x)"] = 1.1,
+                ["2 - Normal Walk (1.2x)"] = 1.2,
+                ["3 - Medium Walk (1.35x)"] = 1.35,
+                ["4 - Fast Walk (1.5x)"] = 1.5,
+                ["5 - Jogging (1.75x)"] = 1.75,
+                ["6 - Fast Jogging (2.0x)"] = 2.0,
+                ["7 - Running (2.3x)"] = 2.3,
+                ["8 - Sprinting (2.6x)"] = 2.6
+            }
+            TpWalkSpeedMultiplier = speedMap[Value] or 1.2
+        end
+    })
+
+    Tabs.Combat:AddToggle("TpWalkToggle", {
+        Title = "Tpwalk (Natural Walking Style)",
+        Default = false,
+        Callback = function(Value)
+            TpWalkEnabled = Value
+            Fluent:Notify({
+                Title = "Tpwalk",
+                Content = TpWalkEnabled and "Tpwalk Enabled (Smooth Walking)" or "Tpwalk Disabled",
+                Duration = 2
+            })
+        end
+    })
+
+    RunService.RenderStepped:Connect(function()
+        if not TpWalkEnabled then return end
+        local char = LocalPlayer.Character
+        if not char then return end
+        local humanoid = char:FindFirstChildOfClass("Humanoid")
+        local hrp = char:FindFirstChild("HumanoidRootPart")
+        if not humanoid or not hrp then return end
+
+        local moveDir = humanoid.MoveDirection
+        if moveDir.Magnitude > 0 then
+            local currentVel = hrp.AssemblyLinearVelocity
+            local targetSpeed = humanoid.WalkSpeed * TpWalkSpeedMultiplier
+            local desiredVel = Vector3.new(moveDir.X * targetSpeed, currentVel.Y, moveDir.Z * targetSpeed)
+            hrp.AssemblyLinearVelocity = currentVel:Lerp(desiredVel, 0.35)
+        end
+    end)
+
+    local InfJumpEnabled = false
+    local InfJumpMode = "Original"
+    local InfJumpConnection
+    local lastJumpTime = 0
+    local jumpCooldown = 0.25
+
+    Tabs.Combat:AddDropdown("InfJumpModeDropdown", {
+        Title = "Infinite Jump Mode",
+        Values = {"Original", "Toggle Supported"},
+        Default = "Original",
+        Callback = function(Value)
+            InfJumpMode = Value
+        end
+    })
+
+    Tabs.Combat:AddToggle("InfJumpToggle", {
+        Title = "Inf Jump",
+        Default = false,
+        Callback = function(Value)
+            InfJumpEnabled = Value
+            if InfJumpEnabled then
+                if InfJumpConnection then InfJumpConnection:Disconnect() end
+                InfJumpConnection = UserInputService.JumpRequest:Connect(function()
+                    if not InfJumpEnabled then return end
+                    local char = LocalPlayer.Character
+                    if not char then return end
+                    local humanoid = char:FindFirstChildOfClass("Humanoid")
+                    local rootPart = char:FindFirstChild("HumanoidRootPart")
+                    if not humanoid or not rootPart then return end
+
+                    if InfJumpMode == "Original" then
+                        local currentTime = os.clock()
+                        if currentTime - lastJumpTime < jumpCooldown then return end
+                        lastJumpTime = currentTime
+                        rootPart.AssemblyLinearVelocity = Vector3.new(rootPart.AssemblyLinearVelocity.X, humanoid.JumpPower, rootPart.AssemblyLinearVelocity.Z)
+                        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+                    elseif InfJumpMode == "Toggle Supported" then
+                        if UserInputService:IsKeyDown(Enum.KeyCode.Space) or UserInputService:GetFocusedTextBox() == nil then
+                            rootPart.AssemblyLinearVelocity = Vector3.new(rootPart.AssemblyLinearVelocity.X, humanoid.JumpPower, rootPart.AssemblyLinearVelocity.Z)
+                            humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+                        end
+                    end
+                end)
+            else
+                if InfJumpConnection then
+                    InfJumpConnection:Disconnect()
+                    InfJumpConnection = nil
+                end
+            end
+        end
+    })
+
+    local AutoWallhopEnabled = false
+    local debounceJump = true
+    local wallDistance = 2.5
+    local rP = RaycastParams.new()
+    rP.FilterType = Enum.RaycastFilterType.Blacklist
+
+    local function getWall()
+        local c = LocalPlayer.Character
+        if not c then return nil end
+        local r = c:FindFirstChild("HumanoidRootPart")
+        if not r then return nil end
+        rP.FilterDescendantsInstances = {c}
+        local dirs = {r.CFrame.LookVector, -r.CFrame.LookVector, r.CFrame.RightVector, -r.CFrame.RightVector}
+        local h, md = nil, wallDistance + 1
+        for _, d in pairs(dirs) do
+            local ry = Workspace:Raycast(r.Position, d * wallDistance, rP)
+            if ry and ry.Instance and ry.Distance < md then
+                md = ry.Distance
+                h = ry
+            end
+        end
+        return h
+    end
+
+    UserInputService.JumpRequest:Connect(function()
+        if not AutoWallhopEnabled or not debounceJump then return end
+        local c = LocalPlayer.Character
+        local h = c and c:FindFirstChildOfClass("Humanoid")
+        local r = c and c:FindFirstChild("HumanoidRootPart")
+        if not (h and r) then return end
+        local w = getWall()
+        if w then
+            debounceJump = false
+            local wn = w.Normal
+            local hwn = Vector3.new(wn.X, 0, wn.Z).Unit
+            if hwn.Magnitude < 0.1 then
+                hwn = (r.CFrame.LookVector * Vector3.new(1, 0, 1)).Unit
+            end
+            local b = hwn
+            local cl = Workspace.CurrentCamera.CFrame.LookVector
+            local hcl = Vector3.new(cl.X, 0, cl.Z).Unit
+            local ma = math.rad(40)
+            local dt = math.clamp(b:Dot(hcl), -1, 1)
+            local ab = math.acos(dt)
+            local cr = b:Cross(hcl)
+            local rs = math.sign(cr.Y)
+            if rs == 0 then ab = 0 end
+            local aa = math.min(ab, ma)
+            local ar = CFrame.Angles(0, aa * rs, 0)
+            local it = ar * b
+            r.CFrame = CFrame.lookAt(r.Position, r.Position + it)
+            RunService.Heartbeat:Wait()
+            h:ChangeState(Enum.HumanoidStateType.Jumping)
+            h.JumpPower = 100
+            r.CFrame = CFrame.lookAt(r.Position, r.Position - b)
+            task.wait(0.15)
+            debounceJump = true
+        end
+    end)
+
+    Tabs.Combat:AddToggle("AutoWallhopToggle", {
+        Title = "Auto Wallhop",
+        Default = false,
+        Callback = function(Value)
+            AutoWallhopEnabled = Value
+        end
+    })
+
+    Tabs.Combat:AddSection("PvP Tools")
+
+    local HitboxEnabled = false
+    local HitboxSize = 5
+    local originalPartSizes = {}
+    local hitboxHighlights = {}
+
+    local function applyHitboxToPlayer(p)
+        if p == LocalPlayer then return end
+        local char = p.Character
+        if not char then return end
+        local humanoid = char:FindFirstChildOfClass("Humanoid")
+        local rootPart = char:FindFirstChild("HumanoidRootPart")
+        
+        if rootPart then
+            if not originalPartSizes[rootPart] then
+                originalPartSizes[rootPart] = {Size = rootPart.Size, Transparency = rootPart.Transparency, CanCollide = rootPart.CanCollide}
+            end
+            
+            local isDead = (humanoid and humanoid.Health <= 0) or not char:FindFirstChild("Head")
+            
+            rootPart.Size = Vector3.new(HitboxSize, HitboxSize, HitboxSize)
+            rootPart.Transparency = HitboxEnabled and 0.4 or originalPartSizes[rootPart].Transparency
+            rootPart.CanCollide = false 
+
+            if HitboxEnabled and not isDead then
+                if not hitboxHighlights[p] then
+                    local hl = Instance.new("Highlight")
+                    hl.Adornee = char
+                    hl.FillColor = Color3.fromRGB(255, 0, 0)
+                    hl.FillTransparency = 0.5
+                    hl.OutlineColor = Color3.fromRGB(255, 0, 0)
+                    hl.OutlineTransparency = 0
+                    hl.Parent = char
+                    hitboxHighlights[p] = hl
+                end
+            else
+                if hitboxHighlights[p] then
+                    hitboxHighlights[p]:Destroy()
+                    hitboxHighlights[p] = nil
+                end
+            end
+        end
+    end
+
+    local function resetHitboxForPlayer(p)
+        local char = p.Character
+        if char then
+            local rootPart = char:FindFirstChild("HumanoidRootPart")
+            if rootPart and originalPartSizes[rootPart] then
+                rootPart.Size = originalPartSizes[rootPart].Size
+                rootPart.Transparency = originalPartSizes[rootPart].Transparency
+                rootPart.CanCollide = originalPartSizes[rootPart].CanCollide
+                originalPartSizes[rootPart] = nil
+            end
+            if hitboxHighlights[p] then
+                hitboxHighlights[p]:Destroy()
+                hitboxHighlights[p] = nil
+            end
+        end
+    end
+
+    Tabs.Combat:AddToggle("HitboxToggle", {
+        Title = "Enable Visible Red Hitbox Expander",
+        Default = false,
+        Callback = function(Value)
+            HitboxEnabled = Value
+            for _, p in ipairs(Players:GetPlayers()) do
+                if HitboxEnabled then applyHitboxToPlayer(p) else resetHitboxForPlayer(p) end
+            end
+        end
+    })
+
+    Tabs.Combat:AddSlider("HitboxSizeSlider", {
+        Title = "Hitbox Size",
+        Default = 5,
+        Min = 1,
+        Max = 20,
+        Rounding = 0,
+        Callback = function(Value)
+            HitboxSize = Value
+            if HitboxEnabled then
+                for _, p in ipairs(Players:GetPlayers()) do applyHitboxToPlayer(p) end
+            end
+        end
+    })
+
+    local function setupPlayerHitboxHooks(p)
+        if p == LocalPlayer then return end
+        p.CharacterAdded:Connect(function(char)
+            char:WaitForChild("Humanoid", 5)
+            char:WaitForChild("HumanoidRootPart", 5)
+            if HitboxEnabled then
+                task.wait(0.2)
+                applyHitboxToPlayer(p)
+            end
+        end)
+        p.CharacterRemoving:Connect(function()
+            if hitboxHighlights[p] then
+                hitboxHighlights[p]:Destroy()
+                hitboxHighlights[p] = nil
+            end
+        end)
+    end
+
+    Players.PlayerAdded:Connect(function(player)
+        setupPlayerHitboxHooks(player)
+    end)
+
+    for _, p in ipairs(Players:GetPlayers()) do
+        setupPlayerHitboxHooks(p)
+    end
+
+    RunService.Stepped:Connect(function()
+        if not HitboxEnabled then return end
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= LocalPlayer and p.Character then
+                local humanoid = p.Character:FindFirstChildOfClass("Humanoid")
+                local rootPart = p.Character:FindFirstChild("HumanoidRootPart")
+                if humanoid and rootPart then
+                    if humanoid.Health <= 0 then
+                        rootPart.CanCollide = false
+                        if hitboxHighlights[p] then
+                            hitboxHighlights[p]:Destroy()
+                            hitboxHighlights[p] = nil
+                        end
+                    else
+                        applyHitboxToPlayer(p)
+                    end
+                end
+            end
+        end
+    end)
+
+    local AssistEnabled = false
+    local assistPower = 48
+    local assistRange = 10
+
+    local function hasGreenHighlight(targetChar)
+        for _, desc in ipairs(targetChar:GetDescendants()) do
+            if desc:IsA("Highlight") then
+                local fc = desc.FillColor
+                if fc.G > fc.R and fc.G > fc.B then
+                    return true
+                end
+            end
+        end
+        return false
+    end
+
+    Tabs.Combat:AddToggle("AssistToggle", {
+        Title = "Assist (Bomb needed)",
+        Default = false,
+        Callback = function(Value)
+            AssistEnabled = Value
+        end
+    })
+
+    RunService.RenderStepped:Connect(function()
+        if not AssistEnabled then return end
+
+        local char = LocalPlayer.Character
+        if not char then return end
+
+        local equippedTool = char:FindFirstChildOfClass("Tool")
+        if not equippedTool then return end
+
+        local rootPart = char:FindFirstChild("HumanoidRootPart")
+        local humanoid = char:FindFirstChild("Humanoid")
+
+        if not rootPart or not humanoid then return end
+
+        local nearestPlayer = nil
+        local shortestDist = math.huge
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= LocalPlayer and p.Character then
+                local targetRoot = p.Character:FindFirstChild("HumanoidRootPart")
+                local targetHum = p.Character:FindFirstChild("Humanoid")
+
+                if targetRoot and targetHum and targetHum.Health > 0 then
+                    if not hasGreenHighlight(p.Character) then
+                        local dist = (rootPart.Position - targetRoot.Position).Magnitude
+                        if dist <= assistRange and dist < shortestDist then
+                            shortestDist = dist
+                            nearestPlayer = p
+                        end
+                    end
+                end
+            end
+        end
+
+        if nearestPlayer and nearestPlayer.Character then
+            local targetRoot = nearestPlayer.Character:FindFirstChild("Head") or nearestPlayer.Character:FindFirstChild("HumanoidRootPart")
+
+            if targetRoot and humanoid.MoveDirection.Magnitude > 0.1 then
+                local targetPos = targetRoot.Position
+                local lookAtPos = Vector3.new(targetPos.X, rootPart.Position.Y, targetPos.Z)
+                local dirToTarget = (lookAtPos - rootPart.Position).Unit
+
+                local weight = (assistPower / 100) * 1.0
+                local blendedDir = humanoid.MoveDirection:Lerp(dirToTarget, math.clamp(weight, 0, 0.75))
+
+                humanoid:Move(blendedDir.Unit, false)
+            end
+        end
+    end)
+
+    -- ==================== VISUAL TAB ====================
+    Tabs.Visual:AddSection("Performance Monitor")
+    local StatsParagraph = Tabs.Visual:AddParagraph({
+        Title = "FPS & Ping Status",
+        Content = "FPS: Calculating...\nPing: Calculating..."
+    })
+
+    task.spawn(function()
+        local lastUpdate = 0
+        local frameCount = 0
+        local currentFPS = 60
+        RunService.RenderStepped:Connect(function(dt)
+            frameCount = frameCount + 1
+            local now = os.clock()
+            if now - lastUpdate >= 1 then
+                currentFPS = math.floor(frameCount / (now - lastUpdate) + 0.5)
+                frameCount = 0
+                lastUpdate = now
+                local pingVal = 0
+                pcall(function() pingVal = math.floor(LocalPlayer:GetNetworkPing() * 1000 + 0.5) end)
+                StatsParagraph:SetDesc("FPS: " .. currentFPS .. "\nPing: " .. pingVal .. " ms")
+            end
+        end)
+    end)
+
+    Tabs.Visual:AddSection("ESP Suite")
+
+    local ESPEnabled, TracersEnabled, BoxESPEnabled, NameESPEnabled, BombESPEnabled = false, false, false, false, false
+    local ESPFolder = Instance.new("Folder", game:GetService("CoreGui"))
+    ESPFolder.Name = "FluentESPFolder"
+    local activeHighlights = {}
+    local activeDrawings = {}
+    local bombHolderHighlights = {}
+
+    local function createESP(character)
+        if not character or activeHighlights[character] then return end
+        local highlight = Instance.new("Highlight")
+        highlight.Adornee = character
+        highlight.FillColor = Color3.fromRGB(255, 105, 180)
+        highlight.FillTransparency = 0.5
+        highlight.OutlineColor = Color3.fromRGB(255, 255, 255)
+        highlight.Parent = ESPFolder
+        activeHighlights[character] = highlight
+    end
+
+    local function removeESP(character)
+        if activeHighlights[character] then
+            activeHighlights[character]:Destroy()
+            activeHighlights[character] = nil
+        end
+    end
+
+    Tabs.Visual:AddToggle("ESPToggle", {
+        Title = "Highlight ESP",
+        Default = false,
+        Callback = function(Value)
+            ESPEnabled = Value
+            if ESPEnabled then
+                for _, p in ipairs(Players:GetPlayers()) do
+                    if p ~= LocalPlayer and p.Character then createESP(p.Character) end
+                end
+            else
+                for char, _ in pairs(activeHighlights) do removeESP(char) end
+            end
+        end
+    })
+
+    Tabs.Visual:AddToggle("TracersToggle", {
+        Title = "Tracers ESP",
+        Default = false,
+        Callback = function(Value) TracersEnabled = Value end
+    })
+
+    Tabs.Visual:AddToggle("BoxESPToggle", {
+        Title = "Box ESP",
+        Default = false,
+        Callback = function(Value) BoxESPEnabled = Value end
+    })
+
+    Tabs.Visual:AddToggle("NameESPToggle", {
+        Title = "Name ESP",
+        Default = false,
+        Callback = function(Value) NameESPEnabled = Value end
+    })
+
+    Tabs.Visual:AddToggle("BombESPToggle", {
+        Title = "Bomb Holder ESP",
+        Description = "Highlights players holding bombs",
+        Default = false,
+        Callback = function(Value)
+            BombESPEnabled = Value
+            if BombESPEnabled then
+                task.spawn(function()
+                    while BombESPEnabled do
+                        for _, p in ipairs(Players:GetPlayers()) do
+                            if p.Character then
+                                local hasBomb = false
+                                if p:FindFirstChild("Backpack") then
+                                    for _, item in ipairs(p.Backpack:GetChildren()) do
+                                        if item.Name:lower():find("bomb") then hasBomb = true end
+                                    end
+                                end
+                                for _, item in ipairs(p.Character:GetChildren()) do
+                                    if item:IsA("Tool") and item.Name:lower():find("bomb") then hasBomb = true end
+                                end
+                                if hasBomb then
+                                    if not bombHolderHighlights[p] then
+                                        local hl = Instance.new("Highlight")
+                                        hl.Adornee = p.Character
+                                        hl.FillColor = Color3.fromRGB(255, 0, 0)
+                                        hl.FillTransparency = 0.2
+                                        hl.OutlineColor = Color3.fromRGB(255, 255, 255)
+                                        hl.Parent = ESPFolder
+                                        bombHolderHighlights[p] = hl
+                                    end
+                                else
+                                    if bombHolderHighlights[p] then
+                                        bombHolderHighlights[p]:Destroy()
+                                        bombHolderHighlights[p] = nil
+                                    end
+                                end
+                            end
+                        end
+                        task.wait(0.5)
+                    end
+                end)
+            else
+                for _, hl in pairs(bombHolderHighlights) do if hl then hl:Destroy() end end
+                bombHolderHighlights = {}
+            end
+        end
+    })
+
+    RunService.RenderStepped:Connect(function()
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= LocalPlayer and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+                local char = p.Character
+                local hrp = char.HumanoidRootPart
+                local head = char:FindFirstChild("Head")
+
+                if ESPEnabled and not activeHighlights[char] then
+                    createESP(char)
+                end
+
+                if not activeDrawings[p] then
+                    activeDrawings[p] = {
+                        Tracer = Drawing.new("Line"),
+                        Box = Drawing.new("Square"),
+                        Name = Drawing.new("Text")
+                    }
+                    activeDrawings[p].Tracer.Thickness = 1
+                    activeDrawings[p].Tracer.Color = Color3.fromRGB(255, 105, 180)
+                    activeDrawings[p].Box.Thickness = 1
+                    activeDrawings[p].Box.Filled = false
+                    activeDrawings[p].Box.Color = Color3.fromRGB(255, 255, 255)
+                    activeDrawings[p].Name.Size = 14
+                    activeDrawings[p].Name.Center = true
+                    activeDrawings[p].Name.Outline = true
+                    activeDrawings[p].Name.Color = Color3.fromRGB(255, 255, 255)
+                end
+
+                local d = activeDrawings[p]
+                local vector, onScreen = Camera:WorldToViewportPoint(hrp.Position)
+
+                if onScreen then
+                    d.Tracer.Visible = TracersEnabled
+                    d.Tracer.From = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y)
+                    d.Tracer.To = Vector2.new(vector.X, vector.Y)
+
+                    if BoxESPEnabled and head then
+                        local headVec = Camera:WorldToViewportPoint(head.Position + Vector3.new(0, 0.5, 0))
+                        local legVec = Camera:WorldToViewportPoint(hrp.Position - Vector3.new(0, 3, 0))
+                        local height = math.abs(headVec.Y - legVec.Y)
+                        local width = height / 2
+                        d.Box.Visible = true
+                        d.Box.Size = Vector2.new(width, height)
+                        d.Box.Position = Vector2.new(vector.X - width / 2, headVec.Y)
+                    else
+                        d.Box.Visible = false
+                    end
+
+                    d.Name.Visible = NameESPEnabled
+                    d.Name.Text = p.Name
+                    d.Name.Position = Vector2.new(vector.X, vector.Y - 40)
+                else
+                    d.Tracer.Visible = false
+                    d.Box.Visible = false
+                    d.Name.Visible = false
+                end
+            else
+                if activeDrawings[p] then
+                    activeDrawings[p].Tracer.Visible = false
+                    activeDrawings[p].Box.Visible = false
+                    activeDrawings[p].Name.Visible = false
+                end
+            end
+        end
+    end)
+
+    local function setupPlayerESPHooks(player)
+        player.CharacterAdded:Connect(function(char)
+            if ESPEnabled then
+                task.wait(0.3)
+                createESP(char)
+            end
+        end)
+        player.CharacterRemoving:Connect(function(char)
+            removeESP(char)
+            if bombHolderHighlights[player] then
+                bombHolderHighlights[player]:Destroy()
+                bombHolderHighlights[player] = nil
+            end
+        end)
+    end
+
+    Players.PlayerAdded:Connect(function(player)
+        setupPlayerESPHooks(player)
+    end)
+
+    for _, p in ipairs(Players:GetPlayers()) do
+        setupPlayerESPHooks(p)
+    end
+
+    -- ==================== SETTINGS TAB ====================
+    Tabs.Settings:AddSection("Environment Preferences")
+    Tabs.Settings:AddSlider("FOVSetting", {
+        Title = "Field of View (FOV)",
+        Default = 70,
+        Min = 50,
+        Max = 120,
+        Rounding = 0,
+        Callback = function(Value)
+            Camera.FieldOfView = Value
+        end
+    })
+
+    Tabs.Settings:AddToggle("FullbrightToggle", {
+        Title = "Fullbright (No Darkness)",
+        Default = false,
+        Callback = function(Value)
+            if Value then
+                Lighting.Brightness = 2
+                Lighting.ClockTime = 14
+                Lighting.GlobalShadows = false
+            else
+                Lighting.Brightness = 1
+                Lighting.GlobalShadows = true
+            end
+        end
+    })
+
+    -- Crosshair Customization Suite
+    Tabs.Settings:AddSection("Crosshair Customization")
+
+    local CrosshairEnabled = false
+    local CrosshairSize = 6
+    local CrosshairColor = Color3.fromRGB(255, 105, 180)
+
+    local crosshairLines = {
+        Top = Drawing.new("Line"),
+        Bottom = Drawing.new("Line"),
+        Left = Drawing.new("Line"),
+        Right = Drawing.new("Line")
+    }
+
+    for _, line in pairs(crosshairLines) do
+        line.Thickness = 1.5
+        line.Visible = false
+    end
+
+    Tabs.Settings:AddToggle("CrosshairToggle", {
+        Title = "Enable Crosshair",
+        Default = false,
+        Callback = function(Value)
+            CrosshairEnabled = Value
+            if not CrosshairEnabled then
+                for _, line in pairs(crosshairLines) do
+                    line.Visible = false
+                end
+            end
+        end
+    })
+
+    Tabs.Settings:AddSlider("CrosshairSizeSlider", {
+        Title = "Crosshair Size",
+        Default = 6,
+        Min = 2,
+        Max = 30,
+        Rounding = 0,
+        Callback = function(Value)
+            CrosshairSize = Value
+        end
+    })
+
+    RunService.RenderStepped:Connect(function()
+        if not CrosshairEnabled then return end
+        local vp = Camera.ViewportSize
+        local center = Vector2.new(vp.X / 2, vp.Y / 2)
+
+        local t = crosshairLines.Top
+        local b = crosshairLines.Bottom
+        local l = crosshairLines.Left
+        local r = crosshairLines.Right
+
+        t.Visible = true
+        t.From = Vector2.new(center.X, center.Y - CrosshairSize - 3)
+        t.To = Vector2.new(center.X, center.Y - 3)
+        t.Color = CrosshairColor
+
+        b.Visible = true
+        b.From = Vector2.new(center.X, center.Y + 3)
+        b.To = Vector2.new(center.X, center.Y + CrosshairSize + 3)
+        b.Color = CrosshairColor
+
+        l.Visible = true
+        l.From = Vector2.new(center.X - CrosshairSize - 3, center.Y)
+        l.To = Vector2.new(center.X - 3, center.Y)
+        l.Color = CrosshairColor
+
+        r.Visible = true
+        r.From = Vector2.new(center.X + 3, center.Y)
+        r.To = Vector2.new(center.X + CrosshairSize + 3, center.Y)
+        r.Color = CrosshairColor
+    end)
+
+    Tabs.Settings:AddSection("Utility & Performance")
+
+    local antiAfkConnection
+    Tabs.Settings:AddToggle("AntiAFKToggle", {
+        Title = "Anti-AFK (Prevent Kick)",
+        Default = false,
+        Callback = function(Value)
+            if Value then
+                local vu = game:GetService("VirtualUser")
+                antiAfkConnection = LocalPlayer.Idled:Connect(function()
+                    vu:Button2Down(Vector2.new(0,0), workspace.CurrentCamera.CFrame)
+                    task.wait(1)
+                    vu:Button2Up(Vector2.new(0,0), workspace.CurrentCamera.CFrame)
+                end)
+                Fluent:Notify({Title = "Anti-AFK", Content = "Anti-AFK enabled successfully!", Duration = 3})
+            else
+                if antiAfkConnection then
+                    antiAfkConnection:Disconnect()
+                    antiAfkConnection = nil
+                end
+                Fluent:Notify({Title = "Anti-AFK", Content = "Anti-AFK disabled.", Duration = 3})
+            end
+        end
+    })
+
+    Tabs.Settings:AddSlider("FPSCapSlider", {
+        Title = "FPS Cap Limit",
+        Default = 60,
+        Min = 30,
+        Max = 240,
+        Rounding = 0,
+        Callback = function(Value)
+            if setfpscap then
+                setfpscap(Value)
+            end
+        end
+    })
+
+    Tabs.Settings:AddSection("Credits")
+    Tabs.Settings:AddParagraph({
+        Title = "MOH HUB Credits",
+        Content = "Special thanks to the contributors:\n\n• CatTBD\n• Nutural\n• RandomXU"
+    })
+
+    SaveManager:SetLibrary(Fluent)
+    InterfaceManager:SetLibrary(Fluent)
+    SaveManager:IgnoreThemeSettings()
+    SaveManager:SetIgnoreIndexes({})
+    InterfaceManager:SetFolder("MOH HUB")
+    SaveManager:SetFolder("MOH HUB/settings")
+
+    InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+    SaveManager:BuildConfigSection(Tabs.Settings)
+
+    Window:SelectTab(1)
+    SaveManager:LoadAutoloadConfig()
+end
